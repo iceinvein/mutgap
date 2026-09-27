@@ -1,0 +1,22 @@
+{
+  "label": "described",
+  "unanimous": false,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The limit for score 1 is \"under 50 lines\", while the other scores use \"or fewer\". So a 50-line PR scores 2, not 1. The tests treat this as intended. If it's actually a mistake, let me know and I'll change the tests.",
+      "cost_usd": 0.010851000000000001
+    },
+    {
+      "label": "described",
+      "quote": "So a 50-line PR scores 2, not 1. The tests treat this as intended.",
+      "cost_usd": 0.010776
+    },
+    {
+      "label": "described",
+      "quote": "The limit for score 1 is \"under 50 lines\", while the other scores use \"or fewer\". So a 50-line PR scores 2, not 1.",
+      "cost_usd": 0.009866
+    }
+  ],
+  "model": "haiku"
+}

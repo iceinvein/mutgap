@@ -1,0 +1,22 @@
+{
+  "label": "described",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "described",
+      "quote": "a candidate of 0 gives 1",
+      "cost_usd": 0.006549
+    },
+    {
+      "label": "described",
+      "quote": "a candidate of 0 gives 1",
+      "cost_usd": 0.009144
+    },
+    {
+      "label": "described",
+      "quote": "a candidate of 0 gives 1",
+      "cost_usd": 0.008134
+    }
+  ],
+  "model": "haiku"
+}

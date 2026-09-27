@@ -1,0 +1,29 @@
+{
+  "task": "planShards",
+  "arm": "spec",
+  "model": "sonnet",
+  "rep": 3,
+  "wall_s": 78,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.20922179999999999,
+  "turns": 9,
+  "bug_kind": "operator",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 17,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "planShards a shard exactly at the line budget is not split further"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.671875
+  },
+  "fix_mutant": null
+}

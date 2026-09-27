@@ -1,0 +1,1 @@
+{"name":"parseUnifiedDiffToHunks","source":"iceinvein/agent-skills@e0ba96c:skills/magpie/scripts/diff-utils.ts:20","bug_kind":"operator","bug":"the +++/--- skip uses && instead of ||, so it never fires and a following file's --- and +++ header lines are parsed into the previous hunk as a removed and an added line, shifting its line numbers"}

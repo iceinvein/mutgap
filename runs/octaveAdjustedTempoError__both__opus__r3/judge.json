@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The bug: `spec.md` says a candidate of zero should return `Infinity`. The function returns `1` instead.",
+      "cost_usd": 0.006662
+    },
+    {
+      "label": "reported",
+      "quote": "**The bug:** `spec.md` says a candidate of zero should return `Infinity`. The function returns `1` instead. The guard in `src/octaveAdjustedTempoError.ts:5` is `!(candidate >= 0)`, which lets `0` through, so the result becomes `|0 \u2212 120| / 120 = 1`.",
+      "cost_usd": 0.0062970000000000005
+    },
+    {
+      "label": "reported",
+      "quote": "The bug: `spec.md` says a candidate of zero should return `Infinity`. The function returns `1` instead. The guard in `src/octaveAdjustedTempoError.ts:5` is `!(candidate >= 0)`, which lets `0` through, so the result becomes `|0 \u2212 120| / 120 = 1`.",
+      "cost_usd": 0.007012
+    }
+  ],
+  "model": "haiku"
+}

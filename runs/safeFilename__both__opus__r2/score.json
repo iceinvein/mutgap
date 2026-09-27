@@ -1,0 +1,31 @@
+{
+  "task": "safeFilename",
+  "arm": "both",
+  "model": "opus",
+  "rep": 2,
+  "wall_s": 25,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.14142739999999998,
+  "turns": 3,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 19,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "safeFilename extension uses an extension that already starts with . as is",
+    "safeFilename extension gives the same result with or without the leading dot",
+    "safeFilename extension applies to the resume fallback too"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.92
+  },
+  "fix_mutant": null
+}

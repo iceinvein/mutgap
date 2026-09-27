@@ -1,0 +1,11 @@
+{
+  "task": "parseUnifiedDiffToHunks",
+  "arm": "both",
+  "model": "opus",
+  "rep": 1,
+  "wall_s": 61,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.30234300000000003,
+  "turns": 5
+}

@@ -1,0 +1,22 @@
+{
+  "label": "described",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "described",
+      "quote": "the query beats the path",
+      "cost_usd": 0.012192
+    },
+    {
+      "label": "described",
+      "quote": "the query beats the path",
+      "cost_usd": 0.010037
+    },
+    {
+      "label": "described",
+      "quote": "the query beats the path",
+      "cost_usd": 0.007247
+    }
+  ],
+  "model": "haiku"
+}

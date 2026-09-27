@@ -1,0 +1,31 @@
+{
+  "task": "formatAgo",
+  "arm": "both",
+  "model": "sonnet",
+  "rep": 2,
+  "wall_s": 42,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.1438768,
+  "turns": 7,
+  "bug_kind": "operator",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 17,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "formatAgo returns the seconds for exactly 5 seconds elapsed",
+    "formatAgo when nowS is omitted reads the current time from the clock, rounded down to a whole second",
+    "formatAgo when nowS is omitted treats null nowS the same as omitted"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 1.0
+  },
+  "fix_mutant": null
+}

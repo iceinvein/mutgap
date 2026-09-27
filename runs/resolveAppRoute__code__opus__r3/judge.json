@@ -1,0 +1,22 @@
+{
+  "label": "described",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "described",
+      "quote": "and a query slug wins over the path",
+      "cost_usd": 0.009928
+    },
+    {
+      "label": "described",
+      "quote": "a query slug wins over the path",
+      "cost_usd": 0.007862999999999998
+    },
+    {
+      "label": "described",
+      "quote": "a query slug wins over the path",
+      "cost_usd": 0.009677999999999999
+    }
+  ],
+  "model": "haiku"
+}

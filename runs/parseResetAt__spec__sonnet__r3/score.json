@@ -1,0 +1,31 @@
+{
+  "task": "parseResetAt",
+  "arm": "spec",
+  "model": "sonnet",
+  "rep": 3,
+  "wall_s": 62,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.1837192,
+  "turns": 7,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 30,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "parseResetAt bare 12-hour time treats 12am as midnight",
+    "parseResetAt bare 12-hour time treats 12pm as noon",
+    "parseResetAt bare 12-hour time rolls midnight over to the next day when far in the past"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.7320261437908496
+  },
+  "fix_mutant": null
+}

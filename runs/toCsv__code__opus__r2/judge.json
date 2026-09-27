@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "**The bug:** `escapeCsv` (`src/toCsv.ts:5-7`) puts quotes around a value that contains `\"`, but it doesn't double the quotes inside it. So `say \"hi\"` comes out as `\"say \"hi\"\"` instead of `\"say \"\"hi\"\"\"`. CSV readers will split or misread those cells.",
+      "cost_usd": 0.0075049999999999995
+    },
+    {
+      "label": "reported",
+      "quote": "`escapeCsv` (`src/toCsv.ts:5-7`) puts quotes around a value that contains `\"`, but it doesn't double the quotes inside it. So `say \"hi\"` comes out as `\"say \"hi\"\"` instead of `\"say \"\"hi\"\"\"`. CSV readers will split or misread those cells.",
+      "cost_usd": 0.005665
+    },
+    {
+      "label": "reported",
+      "quote": "CSV readers will split or misread those cells.",
+      "cost_usd": 0.007775000000000001
+    }
+  ],
+  "model": "haiku"
+}

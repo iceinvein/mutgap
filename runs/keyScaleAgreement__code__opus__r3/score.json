@@ -1,0 +1,31 @@
+{
+  "task": "keyScaleAgreement",
+  "arm": "code",
+  "model": "opus",
+  "rep": 3,
+  "wall_s": 47,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.19527219999999995,
+  "turns": 5,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 31,
+  "detects": false,
+  "locks_in": true,
+  "detecting_tests": [],
+  "locking_tests": [
+    "keyScaleAgreement mode defaulting treats a candidate without a mode as major",
+    "keyScaleAgreement mode defaulting treats any scale other than minor as major",
+    "keyScaleAgreement mode defaulting only recognises minor as a whole word"
+  ],
+  "green_on": [
+    "buggy"
+  ],
+  "mutation": {
+    "buggy": 0.9736842105263158
+  },
+  "fix_mutant": null
+}

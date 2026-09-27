@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "**The bug:** `spec.md` says an extension that already starts with `.` should be used as it is. The code always adds a dot (`src/safeFilename.ts:9`: `` const ext = `.${extension}` ``), so a dotted extension ends up with two dots",
+      "cost_usd": 0.009231
+    },
+    {
+      "label": "reported",
+      "quote": "The code always adds a dot (`src/safeFilename.ts:9`: `` const ext = `.${extension}` ``), so a dotted extension ends up with two dots",
+      "cost_usd": 0.006721
+    },
+    {
+      "label": "reported",
+      "quote": "The code always adds a dot (`src/safeFilename.ts:9`: `` const ext = `.${extension}` ``), so a dotted extension ends up with two dots",
+      "cost_usd": 0.006291
+    }
+  ],
+  "model": "haiku"
+}

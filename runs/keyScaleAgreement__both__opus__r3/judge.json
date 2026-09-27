@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "the spec says text with no `minor` or `major` word has no mode, so the function should return `undefined`. Instead, the code treats any text without `minor` as major",
+      "cost_usd": 0.007575
+    },
+    {
+      "label": "reported",
+      "quote": "**The bug:** the spec says text with no `minor` or `major` word has no mode, so the function should return `undefined`. Instead, the code treats any text without `minor` as major",
+      "cost_usd": 0.00662
+    },
+    {
+      "label": "reported",
+      "quote": "the spec says text with no `minor` or `major` word has no mode, so the function should return `undefined`. Instead, the code treats any text without `minor` as major",
+      "cost_usd": 0.007605
+    }
+  ],
+  "model": "haiku"
+}

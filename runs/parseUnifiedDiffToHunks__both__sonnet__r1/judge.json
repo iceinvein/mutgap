@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "A string can never start with both `+++` and `---`, so this condition is always `false` \u2014 file-header lines (`+++ b/file.ts`, `--- a/file.ts`) are never actually skipped. They fall through and get misparsed as regular added/removed lines (e.g. `+++ b/file.ts` becomes an added line with content `++ b/file.ts`), which also throws off line-number counters and can leak into hunks or across files in a multi-file diff.",
+      "cost_usd": 0.006759
+    },
+    {
+      "label": "reported",
+      "quote": "A string can never start with both `+++` and `---`, so this condition is always `false` \u2014 file-header lines (`+++ b/file.ts`, `--- a/file.ts`) are never actually skipped.",
+      "cost_usd": 0.005734
+    },
+    {
+      "label": "reported",
+      "quote": "all three failures point to the same real bug in `parseUnifiedDiffToHunks.ts:45`",
+      "cost_usd": 0.006914
+    }
+  ],
+  "model": "haiku"
+}

@@ -1,0 +1,29 @@
+{
+  "task": "resolveAppRoute",
+  "arm": "spec",
+  "model": "sonnet",
+  "rep": 2,
+  "wall_s": 79,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.2513274,
+  "turns": 11,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 30,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "resolveAppRoute path is only consulted when the hash yields nothing"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.8627450980392157
+  },
+  "fix_mutant": null
+}

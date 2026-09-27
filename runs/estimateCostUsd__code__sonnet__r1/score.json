@@ -1,0 +1,34 @@
+{
+  "task": "estimateCostUsd",
+  "arm": "code",
+  "model": "sonnet",
+  "rep": 1,
+  "wall_s": 30,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.131035,
+  "turns": 6,
+  "bug_kind": "operator",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 12,
+  "detects": false,
+  "locks_in": true,
+  "detecting_tests": [],
+  "locking_tests": [
+    "estimateCostUsd applies the fastMultiplier when speed is standard",
+    "estimateCostUsd does not apply the fastMultiplier when speed is fast"
+  ],
+  "green_on": [
+    "buggy"
+  ],
+  "mutation": {
+    "buggy": 0.8636363636363636
+  },
+  "fix_mutant": {
+    "mutator": "EqualityOperator",
+    "replacement": "usage.speed === \"fast\"",
+    "status": "Killed"
+  }
+}

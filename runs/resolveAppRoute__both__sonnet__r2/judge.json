@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The spec says path is checked before the query parameter, but `resolveAppRoute.ts:58` does `readQuerySlug(location.search) ?? readPathSlug(location.pathname)` \u2014 query first, path second. So when both `pathname=/resume/alice` and `search=?resume=bob` are present, the spec says it should resolve to `alice` (path wins), but the code returns `bob` (query wins).",
+      "cost_usd": 0.009680999999999999
+    },
+    {
+      "label": "reported",
+      "quote": "This confirms a real bug: 26 of 27 tests pass, but one fails because the implementation doesn't match spec.md. The spec says path is checked before the query parameter, but `resolveAppRoute.ts:58` does `readQuerySlug(location.search) ?? readPathSlug(location.pathname)` \u2014 query first, path second.",
+      "cost_usd": 0.006591
+    },
+    {
+      "label": "reported",
+      "quote": "This confirms a real bug: 26 of 27 tests pass, but one fails because the implementation doesn't match spec.md. The spec says path is checked before the query parameter, but `resolveAppRoute.ts:58` does `readQuerySlug(location.search) ?? readPathSlug(location.pathname)` \u2014 query first, path second.",
+      "cost_usd": 0.007716000000000001
+    }
+  ],
+  "model": "haiku"
+}

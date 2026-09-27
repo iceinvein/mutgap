@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The tests caught a real bug: the spec says `encoding` and `cataloguing` must **not** allow moving to `cancelled`, but `src/transitionJob.ts:33` includes `\"cancelled\"` in `encoding`'s allowed list",
+      "cost_usd": 0.0055569999999999994
+    },
+    {
+      "label": "reported",
+      "quote": "with 2 failures exposing a bug where `encoding` incorrectly allows a move to `cancelled`",
+      "cost_usd": 0.005612000000000001
+    },
+    {
+      "label": "reported",
+      "quote": "The tests caught a real bug: the spec says `encoding` and `cataloguing` must **not** allow moving to `cancelled`, but `src/transitionJob.ts:33` includes `\"cancelled\"` in `encoding`'s allowed list",
+      "cost_usd": 0.006502
+    }
+  ],
+  "model": "haiku"
+}

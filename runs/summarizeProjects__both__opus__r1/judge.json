@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The bug: when two projects have the same cost and the same number of events, the spec says they should be sorted by `displayProject` in ascending order. The code sorts them in descending order instead. Given `c`, `a`, `b` with equal cost and count, it returns `['c', 'b', 'a']` rather than `['a', 'b', 'c']`. The cause is the last comparison in the sort at the end of `src/summarizeProjects.ts`: it uses `b.displayProject.localeCompare(a.displayProject)`, and it should be `a.displayProject.localeCompare(b.displayProject)`.",
+      "cost_usd": 0.005833
+    },
+    {
+      "label": "reported",
+      "quote": "**The bug:** when two projects have the same cost and the same number of events, the spec says they should be sorted by `displayProject` in ascending order. The code sorts them in descending order instead.",
+      "cost_usd": 0.0060030000000000005
+    },
+    {
+      "label": "reported",
+      "quote": "The bug: when two projects have the same cost and the same number of events, the spec says they should be sorted by `displayProject` in ascending order. The code sorts them in descending order instead.",
+      "cost_usd": 0.006293
+    }
+  ],
+  "model": "haiku"
+}

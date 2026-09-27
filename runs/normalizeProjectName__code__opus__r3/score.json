@@ -1,0 +1,33 @@
+{
+  "task": "normalizeProjectName",
+  "arm": "code",
+  "model": "opus",
+  "rep": 3,
+  "wall_s": 51,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.18350819999999998,
+  "turns": 5,
+  "bug_kind": "operator",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 20,
+  "detects": false,
+  "locks_in": false,
+  "detecting_tests": [],
+  "locking_tests": [],
+  "green_on": [
+    "buggy",
+    "reference"
+  ],
+  "mutation": {
+    "buggy": 0.845360824742268,
+    "reference": 0.845360824742268
+  },
+  "fix_mutant": {
+    "mutator": "EqualityOperator",
+    "replacement": "index < parts.length - 1",
+    "status": "Survived"
+  }
+}

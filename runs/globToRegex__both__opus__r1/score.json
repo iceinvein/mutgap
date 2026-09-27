@@ -1,0 +1,30 @@
+{
+  "task": "globToRegex",
+  "arm": "both",
+  "model": "opus",
+  "rep": 1,
+  "wall_s": 34,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.1717514,
+  "turns": 4,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 28,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "globToRegex ** **/ matches at the root and at any depth",
+    "globToRegex ** a/**/b matches zero or more intermediate segments"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.9148936170212766
+  },
+  "fix_mutant": null
+}

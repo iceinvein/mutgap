@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The bug: the function never checks whether the text actually says \"major\". In `src/keyScaleAgreement.ts:30-32`, anything that isn't \"minor\" is treated as major... The spec says the mode should be \"major\" only if the whole word `major` appears, and otherwise there is no mode, so the result should be `undefined`. Because of the bug: `keyScaleAgreement(\"C\", \"C\", \"major\")` returns `true` instead of `undefined`.",
+      "cost_usd": 0.006692
+    },
+    {
+      "label": "reported",
+      "quote": "**The bug:** the function never checks whether the text actually says \"major\". In `src/keyScaleAgreement.ts:30-32`, anything that isn't \"minor\" is treated as major",
+      "cost_usd": 0.007457
+    },
+    {
+      "label": "reported",
+      "quote": "the function never checks whether the text actually says \"major\". In `src/keyScaleAgreement.ts:30-32`, anything that isn't \"minor\" is treated as major",
+      "cost_usd": 0.013132000000000001
+    }
+  ],
+  "model": "haiku"
+}

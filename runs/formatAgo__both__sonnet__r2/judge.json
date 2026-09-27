@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "the implementation uses `d <= 5` instead of `d < 5`, so exactly 5 seconds elapsed still returns `\"just now\"` instead of `\"5s ago\"`",
+      "cost_usd": 0.006862000000000001
+    },
+    {
+      "label": "reported",
+      "quote": "the implementation uses `d <= 5` instead of `d < 5`, so exactly 5 seconds elapsed still returns `\"just now\"` instead of `\"5s ago\"`",
+      "cost_usd": 0.007407
+    },
+    {
+      "label": "reported",
+      "quote": "the implementation uses `d <= 5` instead of `d < 5`, so exactly 5 seconds elapsed still returns `\"just now\"` instead of `\"5s ago\"`",
+      "cost_usd": 0.007657000000000001
+    }
+  ],
+  "model": "haiku"
+}

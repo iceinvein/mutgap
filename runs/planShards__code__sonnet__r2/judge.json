@@ -1,0 +1,22 @@
+{
+  "label": "described",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "described",
+      "quote": "budget-exceeded splitting (including the `>=` boundary behavior)",
+      "cost_usd": 0.011704
+    },
+    {
+      "label": "described",
+      "quote": "budget-exceeded splitting (including the `>=` boundary behavior)",
+      "cost_usd": 0.006939
+    },
+    {
+      "label": "described",
+      "quote": "budget-exceeded splitting (including the `>=` boundary behavior)",
+      "cost_usd": 0.018559
+    }
+  ],
+  "model": "haiku"
+}

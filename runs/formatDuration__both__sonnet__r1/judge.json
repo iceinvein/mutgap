@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "this is a genuine off-by-one boundary bug in `formatDuration.ts:5` (`s <= 10` should be `s < 10`)",
+      "cost_usd": 0.006533000000000001
+    },
+    {
+      "label": "reported",
+      "quote": "this is a genuine off-by-one boundary bug in `formatDuration.ts:5` (`s <= 10` should be `s < 10`)",
+      "cost_usd": 0.006883
+    },
+    {
+      "label": "reported",
+      "quote": "this is a genuine off-by-one boundary bug in `formatDuration.ts:5` (`s <= 10` should be `s < 10`)",
+      "cost_usd": 0.0053679999999999995
+    }
+  ],
+  "model": "haiku"
+}

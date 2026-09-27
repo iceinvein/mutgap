@@ -1,0 +1,11 @@
+{
+  "task": "summarizeProjects",
+  "arm": "spec",
+  "model": "opus",
+  "rep": 1,
+  "wall_s": 90,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.38145300000000004,
+  "turns": 6
+}

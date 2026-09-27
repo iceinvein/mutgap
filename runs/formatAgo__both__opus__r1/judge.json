@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "the spec says 5 seconds elapsed should show `\"5s ago\"`, but the function returns `\"just now\"`. At `src/formatAgo.ts:5` the check is `d <= 5` where the spec calls for `d < 5`. Changing it to `d < 5` fixes it.",
+      "cost_usd": 0.006836
+    },
+    {
+      "label": "reported",
+      "quote": "The bug: the spec says 5 seconds elapsed should show `\"5s ago\"`, but the function returns `\"just now\"`.",
+      "cost_usd": 0.0059310000000000005
+    },
+    {
+      "label": "reported",
+      "quote": "The bug: the spec says 5 seconds elapsed should show \"5s ago\", but the function returns \"just now\". At `src/formatAgo.ts:5` the check is `d <= 5` where the spec calls for `d < 5`. Changing it to `d < 5` fixes it.",
+      "cost_usd": 0.008046
+    }
+  ],
+  "model": "haiku"
+}

@@ -1,0 +1,22 @@
+{
+  "label": "described",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "described",
+      "quote": "precedence order (hash > query > path)",
+      "cost_usd": 0.007857
+    },
+    {
+      "label": "described",
+      "quote": "precedence order (hash > query > path)",
+      "cost_usd": 0.005987
+    },
+    {
+      "label": "described",
+      "quote": "precedence order (hash > query > path)",
+      "cost_usd": 0.017607
+    }
+  ],
+  "model": "haiku"
+}

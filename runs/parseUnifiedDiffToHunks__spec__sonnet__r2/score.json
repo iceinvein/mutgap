@@ -1,0 +1,31 @@
+{
+  "task": "parseUnifiedDiffToHunks",
+  "arm": "spec",
+  "model": "sonnet",
+  "rep": 2,
+  "wall_s": 83,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.247251,
+  "turns": 11,
+  "bug_kind": "operator",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 15,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "parseUnifiedDiffToHunks ends a hunk when the next file headers appear, without joining them in",
+    "parseUnifiedDiffToHunks skips a removed line whose content itself begins with \"--\"",
+    "parseUnifiedDiffToHunks flattens hunks from multiple files into input order"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.863013698630137
+  },
+  "fix_mutant": null
+}

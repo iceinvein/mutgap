@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "2 fail, both isolating this one off-by-one bug in the absolute-path marker check.",
+      "cost_usd": 0.009879
+    },
+    {
+      "label": "reported",
+      "quote": "a marker that is the final segment (e.g. `projects` in `/home/me/projects`, which the spec gives as an explicit example) wrongly \"counts,\" producing an empty tail and returning `\"\"` instead of the spec's `me/projects`",
+      "cost_usd": 0.006489
+    },
+    {
+      "label": "reported",
+      "quote": "As a result, a marker that is the final segment (e.g. `projects` in `/home/me/projects`, which the spec gives as an explicit example) wrongly \"counts,\" producing an empty tail and returning `\"\"` instead of the spec's `me/projects`.",
+      "cost_usd": 0.009444000000000001
+    }
+  ],
+  "model": "haiku"
+}

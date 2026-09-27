@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "**The bug:** `escapeCsv` wraps a value containing a double quote in quotes, but doesn't double the quotes inside it. So `say \"hi\"` becomes `\"say \"hi\"\"`, which CSV parsers can't read correctly.",
+      "cost_usd": 0.007549999999999999
+    },
+    {
+      "label": "reported",
+      "quote": "The bug: `escapeCsv` wraps a value containing a double quote in quotes, but doesn't double the quotes inside it.",
+      "cost_usd": 0.007600000000000001
+    },
+    {
+      "label": "reported",
+      "quote": "`escapeCsv` wraps a value containing a double quote in quotes, but doesn't double the quotes inside it. So `say \"hi\"` becomes `\"say \"hi\"\"`, which CSV parsers can't read correctly. Standard CSV (RFC 4180) expects `\"say \"\"hi\"\"\"`. ",
+      "cost_usd": 0.00613
+    }
+  ],
+  "model": "haiku"
+}

@@ -1,0 +1,1 @@
+{"name":"transitionJob","source":"iceinvein/music-creator@bcf6143:packages/domain/src/jobs.ts:26","bug_kind":"semantic","bug":"the transition table lets an encoding job move to cancelled, which should throw","adapted":["inlined DomainError from ./errors as a minimal class (code, details, message prefixed with the code; publicMessage and toJSON dropped)"]}

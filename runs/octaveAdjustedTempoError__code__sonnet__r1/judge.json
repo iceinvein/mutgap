@@ -1,0 +1,22 @@
+{
+  "label": "described",
+  "unanimous": false,
+  "votes": [
+    {
+      "label": "absent",
+      "quote": "",
+      "cost_usd": 0.011376
+    },
+    {
+      "label": "described",
+      "quote": "covering exact matches, octave-halved/doubled matches, general min-distance selection, zero candidate, and invalid inputs (negative candidate, non-positive baseline, NaN)",
+      "cost_usd": 0.024896
+    },
+    {
+      "label": "described",
+      "quote": "covering exact matches, octave-halved/doubled matches, general min-distance selection, zero candidate, and invalid inputs (negative candidate, non-positive baseline, NaN)",
+      "cost_usd": 0.008131
+    }
+  ],
+  "model": "haiku"
+}

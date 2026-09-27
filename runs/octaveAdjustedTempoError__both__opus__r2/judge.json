@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The code at `src/octaveAdjustedTempoError.ts:5` checks `!(candidate >= 0)`, which lets zero through.",
+      "cost_usd": 0.013443
+    },
+    {
+      "label": "reported",
+      "quote": "The bug: `spec.md` says a candidate of zero must return `Infinity`. The code at `src/octaveAdjustedTempoError.ts:5` checks `!(candidate >= 0)`, which lets zero through. So `octaveAdjustedTempoError(0, 120)` returns `1` instead of `Infinity`.",
+      "cost_usd": 0.008993000000000001
+    },
+    {
+      "label": "reported",
+      "quote": "So `octaveAdjustedTempoError(0, 120)` returns `1` instead of `Infinity`.",
+      "cost_usd": 0.006148000000000001
+    }
+  ],
+  "model": "haiku"
+}

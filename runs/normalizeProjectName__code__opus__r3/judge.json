@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The bug: a slash path that ends in one of the special folder names returns an empty string. For example, `normalizeProjectName(\"/home/me/code\")` returns `\"\"`. The cause is the check `index <= parts.length - 1` in `src/normalizeProjectName.ts:7`, which is always true, so the empty remainder after the folder name gets returned. The dash-separated version uses `<` there and correctly skips a folder name in last position, giving `\"home-me-code\"`.",
+      "cost_usd": 0.009608
+    },
+    {
+      "label": "reported",
+      "quote": "The bug: a slash path that ends in one of the special folder names returns an empty string.",
+      "cost_usd": 0.009538
+    },
+    {
+      "label": "reported",
+      "quote": "**The bug:** a slash path that ends in one of the special folder names returns an empty string.",
+      "cost_usd": 0.008858
+    }
+  ],
+  "model": "haiku"
+}

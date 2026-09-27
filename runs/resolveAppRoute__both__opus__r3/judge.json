@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "**The bug:** `spec.md` says the order is hash, then path, then the `resume` query parameter. But `resolveAppRoute` checks the query before the path (`src/resolveAppRoute.ts:61`): ... So when both the path and the query give a slug, the query wins",
+      "cost_usd": 0.006674
+    },
+    {
+      "label": "reported",
+      "quote": "The 2 failures come from a real bug in the code: it checks the sources in a different order from the one the spec gives.",
+      "cost_usd": 0.010103999999999998
+    },
+    {
+      "label": "reported",
+      "quote": "The bug: `spec.md` says the order is hash, then path, then the `resume` query parameter. But `resolveAppRoute` checks the query before the path",
+      "cost_usd": 0.007689
+    }
+  ],
+  "model": "haiku"
+}

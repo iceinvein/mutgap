@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "A likely bug, which I didn't lock into the tests: the code refuses to give a rate when there are `<= 2` dated completions, but its own message says \"one point is not a rate\". That suggests two completions should be enough, meaning the check should be `< 2`.",
+      "cost_usd": 0.007398
+    },
+    {
+      "label": "reported",
+      "quote": "A likely bug, which I didn't lock into the tests: the code refuses to give a rate when there are `<= 2` dated completions, but its own message says \"one point is not a rate\". That suggests two completions should be enough, meaning the check should be `< 2`.",
+      "cost_usd": 0.008138
+    },
+    {
+      "label": "reported",
+      "quote": "the code refuses to give a rate when there are `<= 2` dated completions, but its own message says \"one point is not a rate\". That suggests two completions should be enough, meaning the check should be `< 2`.",
+      "cost_usd": 0.008187999999999999
+    }
+  ],
+  "model": "haiku"
+}

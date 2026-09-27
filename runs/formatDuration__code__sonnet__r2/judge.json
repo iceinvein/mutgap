@@ -1,0 +1,22 @@
+{
+  "label": "described",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "described",
+      "quote": "`<=10s` decimal",
+      "cost_usd": 0.007449
+    },
+    {
+      "label": "described",
+      "quote": "covering the null/undefined, ms, `<=10s` decimal, `10-60s` rounded, and minute-scale branches",
+      "cost_usd": 0.007568999999999999
+    },
+    {
+      "label": "described",
+      "quote": "covering the null/undefined, ms, `<=10s` decimal, `10-60s` rounded, and minute-scale branches",
+      "cost_usd": 0.006984000000000001
+    }
+  ],
+  "model": "haiku"
+}

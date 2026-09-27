@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "text like `\"A\"` (no mode word at all) is incorrectly parsed as major instead of being unparseable",
+      "cost_usd": 0.007488
+    },
+    {
+      "label": "reported",
+      "quote": "All 27 tests pass except 3, which reveal a genuine bug in `keyScaleAgreement.ts` rather than a problem with the tests.",
+      "cost_usd": 0.008718
+    },
+    {
+      "label": "reported",
+      "quote": "text like `\"A\"` (no mode word at all) is incorrectly parsed as major instead of being unparseable",
+      "cost_usd": 0.005933000000000001
+    }
+  ],
+  "model": "haiku"
+}

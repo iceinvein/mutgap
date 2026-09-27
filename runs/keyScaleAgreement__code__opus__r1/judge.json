@@ -1,0 +1,22 @@
+{
+  "label": "described",
+  "unanimous": false,
+  "votes": [
+    {
+      "label": "described",
+      "quote": "if the text doesn't say \"minor\", it's treated as major, even when the scale is empty.",
+      "cost_usd": 0.020819999999999998
+    },
+    {
+      "label": "described",
+      "quote": "if the text doesn't say \"minor\", it's treated as major, even when the scale is empty.",
+      "cost_usd": 0.04401
+    },
+    {
+      "label": "reported",
+      "quote": "These look like bugs rather than intended behaviour, so I didn't lock them in.",
+      "cost_usd": 0.03734
+    }
+  ],
+  "model": "haiku"
+}

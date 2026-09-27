@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "Extension isn't cleaned: `safeFilename(\"cv\", \".pdf\")` gives `cv..pdf`",
+      "cost_usd": 0.009532
+    },
+    {
+      "label": "reported",
+      "quote": "**Extension isn't cleaned:** `safeFilename(\"cv\", \".pdf\")` gives `cv..pdf`",
+      "cost_usd": 0.007997
+    },
+    {
+      "label": "reported",
+      "quote": "**Extension isn't cleaned:** `safeFilename(\"cv\", \".pdf\")` gives `cv..pdf`",
+      "cost_usd": 0.021417
+    }
+  ],
+  "model": "haiku"
+}

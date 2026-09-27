@@ -1,0 +1,32 @@
+{
+  "task": "parseUnifiedDiffToHunks",
+  "arm": "spec",
+  "model": "sonnet",
+  "rep": 1,
+  "wall_s": 56,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.1680086,
+  "turns": 6,
+  "bug_kind": "operator",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 17,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "parseUnifiedDiffToHunks skips file header lines starting with --- or +++ inside a hunk, ending it",
+    "parseUnifiedDiffToHunks skips a removed line whose content begins with \"--\" instead of treating it as a removed line",
+    "parseUnifiedDiffToHunks skips an added line whose content begins with \"++\" instead of treating it as an added line",
+    "parseUnifiedDiffToHunks parses a realistic multi-file, multi-hunk diff end to end"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.863013698630137
+  },
+  "fix_mutant": null
+}

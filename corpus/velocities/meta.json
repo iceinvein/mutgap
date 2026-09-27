@@ -1,0 +1,1 @@
+{"name":"velocities","source":"iceinvein/agent-skills@e0ba96c:skills/migrate/scripts/forecast.ts:67","bug_kind":"operator","bug":"the not-enough-data guard uses <= 2 instead of < 2, so exactly two dated completions report null rates instead of measured ones"}

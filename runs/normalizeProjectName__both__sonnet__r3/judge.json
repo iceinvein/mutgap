@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The spec explicitly gives `/home/me/projects` \u2192 `me/projects` as an example (marker `projects` is the final segment, so it shouldn't count), but the code's check `index <= parts.length - 1` is always true for any valid index, so it never actually excludes a final-segment marker \u2014 it returns `\"\"` instead.",
+      "cost_usd": 0.00805
+    },
+    {
+      "label": "reported",
+      "quote": "but the code's check `index <= parts.length - 1` is always true for any valid index, so it never actually excludes a final-segment marker \u2014 it returns `\"\"` instead.",
+      "cost_usd": 0.006335
+    },
+    {
+      "label": "reported",
+      "quote": "the code's check `index <= parts.length - 1` is always true for any valid index, so it never actually excludes a final-segment marker \u2014 it returns `\"\"` instead.",
+      "cost_usd": 0.0075049999999999995
+    }
+  ],
+  "model": "haiku"
+}

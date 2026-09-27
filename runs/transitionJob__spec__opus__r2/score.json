@@ -1,0 +1,30 @@
+{
+  "task": "transitionJob",
+  "arm": "spec",
+  "model": "opus",
+  "rep": 2,
+  "wall_s": 38,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.19732780000000003,
+  "turns": 5,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 135,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "transitionJob cancelling rejects encoding -> cancelled",
+    "transitionJob full transition matrix rejects encoding -> cancelled"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.8918918918918919
+  },
+  "fix_mutant": null
+}

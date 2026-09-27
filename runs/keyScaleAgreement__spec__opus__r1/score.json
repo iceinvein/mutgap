@@ -1,0 +1,32 @@
+{
+  "task": "keyScaleAgreement",
+  "arm": "spec",
+  "model": "opus",
+  "rep": 1,
+  "wall_s": 70,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.3022488,
+  "turns": 6,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 65,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "keyScaleAgreement mode parsing is unparseable when there is no mode",
+    "keyScaleAgreement mode parsing requires minor and major to be whole words",
+    "keyScaleAgreement reference parsing is undefined when the reference scale has no mode",
+    "keyScaleAgreement reference parsing parses the scale as whole words"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.9736842105263158
+  },
+  "fix_mutant": null
+}

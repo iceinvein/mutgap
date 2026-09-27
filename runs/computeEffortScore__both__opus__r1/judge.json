@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "the spec says tier 1 allows \"at most 50 lines\", so exactly 50 lines should score 1. But `src/computeEffortScore.ts` uses `lines < 50`, which leaves 50 out, so 2 files with 50 lines scores 2 instead of 1",
+      "cost_usd": 0.00774
+    },
+    {
+      "label": "reported",
+      "quote": "the spec says tier 1 allows \"at most 50 lines\", so exactly 50 lines should score 1. But `src/computeEffortScore.ts` uses `lines < 50`, which leaves 50 out, so 2 files with 50 lines scores 2 instead of 1.",
+      "cost_usd": 0.006055
+    },
+    {
+      "label": "reported",
+      "quote": "But `src/computeEffortScore.ts` uses `lines < 50`, which leaves 50 out, so 2 files with 50 lines scores 2 instead of 1. The other tiers correctly use `<=`.",
+      "cost_usd": 0.00624
+    }
+  ],
+  "model": "haiku"
+}

@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "It uses `>=` for the budget comparison, but the spec says \"over\" means *strictly greater than* \u2014 a shard landing exactly on `budget` should be allowed. This `>=` splits shards one file earlier than the spec calls for",
+      "cost_usd": 0.0055450000000000004
+    },
+    {
+      "label": "reported",
+      "quote": "It uses `>=` for the budget comparison, but the spec says \"over\" means *strictly greater than* \u2014 a shard landing exactly on `budget` should be allowed. This `>=` splits shards one file earlier than the spec calls for",
+      "cost_usd": 0.00516
+    },
+    {
+      "label": "reported",
+      "quote": "It uses `>=` for the budget comparison, but the spec says \"over\" means *strictly greater than* \u2014 a shard landing exactly on `budget` should be allowed. This `>=` splits shards one file earlier than the spec calls for (the group-level check just above it correctly uses `>`, so the inconsistency is isolated to this one line).",
+      "cost_usd": 0.007965
+    }
+  ],
+  "model": "haiku"
+}

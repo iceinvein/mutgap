@@ -1,0 +1,11 @@
+{
+  "task": "computeEffortScore",
+  "arm": "spec",
+  "model": "sonnet",
+  "rep": 2,
+  "wall_s": 37,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.14888240000000003,
+  "turns": 9
+}

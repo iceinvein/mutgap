@@ -1,0 +1,33 @@
+{
+  "task": "computeEffortScore",
+  "arm": "code",
+  "model": "sonnet",
+  "rep": 2,
+  "wall_s": 21,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.11433980000000002,
+  "turns": 6,
+  "bug_kind": "operator",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 15,
+  "detects": false,
+  "locks_in": true,
+  "detecting_tests": [],
+  "locking_tests": [
+    "computeEffortScore returns 2 when line count reaches the tier-1 boundary (50 lines)"
+  ],
+  "green_on": [
+    "buggy"
+  ],
+  "mutation": {
+    "buggy": 0.9767441860465116
+  },
+  "fix_mutant": {
+    "mutator": "EqualityOperator",
+    "replacement": "lines <= 50",
+    "status": "Killed"
+  }
+}

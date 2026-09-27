@@ -1,0 +1,30 @@
+{
+  "task": "globToRegex",
+  "arm": "spec",
+  "model": "sonnet",
+  "rep": 1,
+  "wall_s": 68,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.197639,
+  "turns": 9,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 32,
+  "detects": true,
+  "locks_in": true,
+  "detecting_tests": [
+    "globToRegex ** wildcard consumes an immediately following slash, matching the root case",
+    "globToRegex ** wildcard matches surrounding a middle segment with both endpoints touching",
+    "globToRegex combinations combines ** and * and literals"
+  ],
+  "locking_tests": [
+    "globToRegex ** wildcard still requires a full path segment before the literal suffix",
+    "globToRegex ** wildcard does not match when the tail is not a full path segment"
+  ],
+  "green_on": [],
+  "mutation": {},
+  "fix_mutant": null
+}

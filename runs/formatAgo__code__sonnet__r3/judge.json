@@ -1,0 +1,22 @@
+{
+  "label": "absent",
+  "unanimous": false,
+  "votes": [
+    {
+      "label": "described",
+      "quote": "covering null/undefined input, the 5s/60s/hour/day boundaries, future-timestamp clamping, and the default `nowS` (Date.now()) path",
+      "cost_usd": 0.008397
+    },
+    {
+      "label": "absent",
+      "quote": "",
+      "cost_usd": 0.0075569999999999995
+    },
+    {
+      "label": "absent",
+      "quote": "",
+      "cost_usd": 0.009167
+    }
+  ],
+  "model": "haiku"
+}

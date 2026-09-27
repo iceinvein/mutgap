@@ -1,0 +1,30 @@
+{
+  "task": "octaveAdjustedTempoError",
+  "arm": "spec",
+  "model": "opus",
+  "rep": 3,
+  "wall_s": 39,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.2014228,
+  "turns": 4,
+  "bug_kind": "operator",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 36,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "octaveAdjustedTempoError invalid inputs returns positive Infinity for zero candidate",
+    "octaveAdjustedTempoError invalid inputs returns positive Infinity for negative zero candidate"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 1.0
+  },
+  "fix_mutant": null
+}

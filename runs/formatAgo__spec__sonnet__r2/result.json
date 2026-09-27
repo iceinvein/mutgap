@@ -1,0 +1,11 @@
+{
+  "task": "formatAgo",
+  "arm": "spec",
+  "model": "sonnet",
+  "rep": 2,
+  "wall_s": 29,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.11824860000000001,
+  "turns": 6
+}

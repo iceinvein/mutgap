@@ -1,0 +1,1 @@
+{"name":"octaveAdjustedTempoError","source":"iceinvein/music-creator@bcf6143:scripts/music-analysis/lib.ts:153","bug_kind":"operator","bug":"the candidate guard accepts zero, so a candidate tempo of 0 returns an error of 1 instead of Infinity"}

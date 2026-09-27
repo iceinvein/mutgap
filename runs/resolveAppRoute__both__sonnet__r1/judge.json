@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "So for a URL with both a path slug and a query slug (e.g. `/resume/alice?resume=bob`), the code returns `bob` (query wins), while the spec says it should return `alice` (path wins).",
+      "cost_usd": 0.0077859999999999995
+    },
+    {
+      "label": "reported",
+      "quote": "this is a real bug to flag, not a mistake in the test",
+      "cost_usd": 0.006085999999999999
+    },
+    {
+      "label": "reported",
+      "quote": "this is a real bug to flag, not a mistake in the test",
+      "cost_usd": 0.006781
+    }
+  ],
+  "model": "haiku"
+}

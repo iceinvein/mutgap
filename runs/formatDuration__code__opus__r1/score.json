@@ -1,0 +1,33 @@
+{
+  "task": "formatDuration",
+  "arm": "code",
+  "model": "opus",
+  "rep": 1,
+  "wall_s": 25,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.125196,
+  "turns": 3,
+  "bug_kind": "operator",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 22,
+  "detects": false,
+  "locks_in": true,
+  "detecting_tests": [],
+  "locking_tests": [
+    "formatDuration 1s to 10s formats 10000 with one decimal as 10.0s"
+  ],
+  "green_on": [
+    "buggy"
+  ],
+  "mutation": {
+    "buggy": 1.0
+  },
+  "fix_mutant": {
+    "mutator": "EqualityOperator",
+    "replacement": "s < 10",
+    "status": "Killed"
+  }
+}

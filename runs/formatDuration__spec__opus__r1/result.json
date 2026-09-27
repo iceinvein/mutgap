@@ -1,0 +1,11 @@
+{
+  "task": "formatDuration",
+  "arm": "spec",
+  "model": "opus",
+  "rep": 1,
+  "wall_s": 33,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.1693246,
+  "turns": 4
+}

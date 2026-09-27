@@ -1,0 +1,30 @@
+{
+  "task": "parseEnv",
+  "arm": "both",
+  "model": "opus",
+  "rep": 2,
+  "wall_s": 25,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.1494374,
+  "turns": 3,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 21,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "parseEnv splits on the first \"=\" so values may contain \"=\"",
+    "parseEnv keeps \"=\" inside quoted values"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 1.0
+  },
+  "fix_mutant": null
+}

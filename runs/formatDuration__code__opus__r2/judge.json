@@ -1,0 +1,22 @@
+{
+  "label": "described",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "described",
+      "quote": "Exactly 10 000 ms gives `10.0s`.",
+      "cost_usd": 0.012105000000000001
+    },
+    {
+      "label": "described",
+      "quote": "Exactly 10 000 ms gives `10.0s`.",
+      "cost_usd": 0.01071
+    },
+    {
+      "label": "described",
+      "quote": "Exactly 10 000 ms gives `10.0s`.",
+      "cost_usd": 0.011304999999999999
+    }
+  ],
+  "model": "haiku"
+}

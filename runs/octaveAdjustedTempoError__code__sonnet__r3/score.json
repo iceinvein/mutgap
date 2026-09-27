@@ -1,0 +1,33 @@
+{
+  "task": "octaveAdjustedTempoError",
+  "arm": "code",
+  "model": "sonnet",
+  "rep": 3,
+  "wall_s": 25,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.0967394,
+  "turns": 4,
+  "bug_kind": "operator",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 12,
+  "detects": false,
+  "locks_in": true,
+  "detecting_tests": [],
+  "locking_tests": [
+    "octaveAdjustedTempoError handles candidate of 0 with a positive baseline"
+  ],
+  "green_on": [
+    "buggy"
+  ],
+  "mutation": {
+    "buggy": 0.9523809523809523
+  },
+  "fix_mutant": {
+    "mutator": "EqualityOperator",
+    "replacement": "candidate > 0",
+    "status": "Killed"
+  }
+}

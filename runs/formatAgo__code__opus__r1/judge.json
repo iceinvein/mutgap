@@ -1,0 +1,22 @@
+{
+  "label": "described",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "described",
+      "quote": "a difference of 0\u20135 seconds returns `\"just now\"`",
+      "cost_usd": 0.008868999999999998
+    },
+    {
+      "label": "described",
+      "quote": "a difference of 0\u20135 seconds returns `\"just now\"`",
+      "cost_usd": 0.010388999999999999
+    },
+    {
+      "label": "described",
+      "quote": "a difference of 0\u20135 seconds returns `\"just now\"`",
+      "cost_usd": 0.008454
+    }
+  ],
+  "model": "haiku"
+}

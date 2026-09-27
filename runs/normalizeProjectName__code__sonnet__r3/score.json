@@ -1,0 +1,33 @@
+{
+  "task": "normalizeProjectName",
+  "arm": "code",
+  "model": "sonnet",
+  "rep": 3,
+  "wall_s": 48,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.1447906,
+  "turns": 6,
+  "bug_kind": "operator",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 15,
+  "detects": false,
+  "locks_in": true,
+  "detecting_tests": [],
+  "locking_tests": [
+    "normalizeProjectName paths starting with / returns an empty string when the marker is the last path segment"
+  ],
+  "green_on": [
+    "buggy"
+  ],
+  "mutation": {
+    "buggy": 0.711340206185567
+  },
+  "fix_mutant": {
+    "mutator": "EqualityOperator",
+    "replacement": "index < parts.length - 1",
+    "status": "Killed"
+  }
+}

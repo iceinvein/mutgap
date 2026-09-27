@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The spec says a shard may hold exactly `budget` lines (\"'Over' means strictly greater\"), so this should be `>`.",
+      "cost_usd": 0.0066110000000000006
+    },
+    {
+      "label": "reported",
+      "quote": "The spec says a shard may hold exactly `budget` lines (\"'Over' means strictly greater\"), so this should be `>`.",
+      "cost_usd": 0.009891
+    },
+    {
+      "label": "reported",
+      "quote": "The spec says a shard may hold exactly `budget` lines (\"'Over' means strictly greater\"), so this should be `>`.",
+      "cost_usd": 0.006771
+    }
+  ],
+  "model": "haiku"
+}

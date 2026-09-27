@@ -1,0 +1,33 @@
+{
+  "task": "parseEnv",
+  "arm": "spec",
+  "model": "opus",
+  "rep": 2,
+  "wall_s": 65,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.2603818,
+  "turns": 4,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 55,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "parseEnv splitting on the first = keeps further = characters in the value",
+    "parseEnv splitting on the first = handles values made of = characters",
+    "parseEnv splitting on the first = handles base64-style trailing =",
+    "parseEnv quotes keeps = inside quoted values",
+    "parseEnv parses a realistic .env file"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 1.0
+  },
+  "fix_mutant": null
+}

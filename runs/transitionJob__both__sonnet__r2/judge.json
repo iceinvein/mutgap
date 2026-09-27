@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "While writing the tests I found a real bug in `transitionJob.ts`: the `encoding` state's allowed list included `\"cancelled\"`, contradicting the spec (\"not from `encoding` or `cataloguing`\").",
+      "cost_usd": 0.006281999999999999
+    },
+    {
+      "label": "reported",
+      "quote": "While writing the tests I found a real bug in `transitionJob.ts`: the `encoding` state's allowed list included `\"cancelled\"`, contradicting the spec (\"not from `encoding` or `cataloguing`\").",
+      "cost_usd": 0.0050869999999999995
+    },
+    {
+      "label": "reported",
+      "quote": "While writing the tests I found a real bug in `transitionJob.ts`: the `encoding` state's allowed list included `\"cancelled\"`, contradicting the spec (\"not from `encoding` or `cataloguing`\")",
+      "cost_usd": 0.0059819999999999995
+    }
+  ],
+  "model": "haiku"
+}

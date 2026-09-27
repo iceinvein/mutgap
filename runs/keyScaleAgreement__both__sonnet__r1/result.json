@@ -1,0 +1,11 @@
+{
+  "task": "keyScaleAgreement",
+  "arm": "both",
+  "model": "sonnet",
+  "rep": 1,
+  "wall_s": 50,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.154282,
+  "turns": 6
+}

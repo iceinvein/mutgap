@@ -1,0 +1,11 @@
+{
+  "task": "estimateCostUsd",
+  "arm": "spec",
+  "model": "sonnet",
+  "rep": 3,
+  "wall_s": 102,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.29497579999999995,
+  "turns": 12
+}

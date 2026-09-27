@@ -1,0 +1,29 @@
+{
+  "task": "parseEnv",
+  "arm": "both",
+  "model": "sonnet",
+  "rep": 2,
+  "wall_s": 36,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.1242874,
+  "turns": 6,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 25,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "parseEnv splits on the first = so values may contain ="
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.803921568627451
+  },
+  "fix_mutant": null
+}

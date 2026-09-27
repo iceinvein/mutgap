@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "Right now a PR with exactly 50 changed lines scores 2 when it should score 1.",
+      "cost_usd": 0.007487
+    },
+    {
+      "label": "reported",
+      "quote": "The spec says both limits are inclusive (\"at most 50 lines\"), so it should be `lines <= 50`. Right now a PR with exactly 50 changed lines scores 2 when it should score 1.",
+      "cost_usd": 0.006717
+    },
+    {
+      "label": "reported",
+      "quote": "The bug: `src/computeEffortScore.ts:10` checks `lines < 50` for tier 1. The spec says both limits are inclusive (\"at most 50 lines\"), so it should be `lines <= 50`. Right now a PR with exactly 50 changed lines scores 2 when it should score 1.",
+      "cost_usd": 0.007652
+    }
+  ],
+  "model": "haiku"
+}

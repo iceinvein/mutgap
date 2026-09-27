@@ -1,0 +1,22 @@
+{
+  "label": "described",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "described",
+      "quote": "covering nullish input, sub-second, \u226410s (one decimal), 10\u201360s (rounded), minutes/seconds formatting, and the `.5` rounding edge cases",
+      "cost_usd": 0.008607
+    },
+    {
+      "label": "described",
+      "quote": "covering nullish input, sub-second, \u226410s (one decimal), 10\u201360s (rounded), minutes/seconds formatting, and the `.5` rounding edge cases",
+      "cost_usd": 0.008162
+    },
+    {
+      "label": "described",
+      "quote": "\u226410s (one decimal)",
+      "cost_usd": 0.006447
+    }
+  ],
+  "model": "haiku"
+}

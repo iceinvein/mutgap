@@ -1,0 +1,33 @@
+{
+  "task": "planShards",
+  "arm": "code",
+  "model": "sonnet",
+  "rep": 2,
+  "wall_s": 43,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.1474402,
+  "turns": 7,
+  "bug_kind": "operator",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 13,
+  "detects": false,
+  "locks_in": true,
+  "detecting_tests": [],
+  "locking_tests": [
+    "planShards flushes as soon as cumulative lines reach the budget (>=)"
+  ],
+  "green_on": [
+    "buggy"
+  ],
+  "mutation": {
+    "buggy": 0.5
+  },
+  "fix_mutant": {
+    "mutator": "EqualityOperator",
+    "replacement": "currentLines + c.lines > budget",
+    "status": "Killed"
+  }
+}

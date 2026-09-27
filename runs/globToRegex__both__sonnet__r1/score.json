@@ -1,0 +1,31 @@
+{
+  "task": "globToRegex",
+  "arm": "both",
+  "model": "sonnet",
+  "rep": 1,
+  "wall_s": 48,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.1439306,
+  "turns": 7,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 24,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "globToRegex ** consumes a following slash: matches at the root",
+    "globToRegex ** a/**/b matches a/b (the surrounding slashes collapse to one)",
+    "globToRegex combinations handles multiple wildcards together"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.9148936170212766
+  },
+  "fix_mutant": null
+}

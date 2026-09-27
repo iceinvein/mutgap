@@ -1,0 +1,27 @@
+{
+  "task": "globToRegex",
+  "arm": "spec",
+  "model": "opus",
+  "rep": 3,
+  "wall_s": 55,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.24934460000000003,
+  "turns": 6,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 32,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "globToRegex ** **/ at the start matches at the root and at any depth",
+    "globToRegex ** /**/ in the middle matches zero or more directories",
+    "globToRegex ** supports multiple ** segments"
+  ],
+  "locking_tests": [],
+  "green_on": [],
+  "mutation": {},
+  "fix_mutant": null
+}

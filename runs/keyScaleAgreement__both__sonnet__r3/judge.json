@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "Per spec, text with no mode word at all (e.g. `\"A\"` or `\"C dorian\"`) should make the whole side unparseable (`undefined`), but the current code silently treats it as major.",
+      "cost_usd": 0.009611
+    },
+    {
+      "label": "reported",
+      "quote": "Per spec, text with no mode word at all (e.g. `\"A\"` or `\"C dorian\"`) should make the whole side unparseable (`undefined`), but the current code silently treats it as major.",
+      "cost_usd": 0.007256
+    },
+    {
+      "label": "reported",
+      "quote": "Per spec, text with no mode word at all (e.g. `\"A\"` or `\"C dorian\"`) should make the whole side unparseable (`undefined`), but the current code silently treats it as major.",
+      "cost_usd": 0.007686
+    }
+  ],
+  "model": "haiku"
+}

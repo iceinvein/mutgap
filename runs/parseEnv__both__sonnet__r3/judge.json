@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "Tests are written and mostly pass, but 2 failures reveal a real bug: `parseEnv.ts` uses `lastIndexOf('=')` (line 7) to split key/value, while `spec.md` says to split on the **first** `=` so values can contain `=`.",
+      "cost_usd": 0.005429
+    },
+    {
+      "label": "reported",
+      "quote": "Tests are written and mostly pass, but 2 failures reveal a real bug: `parseEnv.ts` uses `lastIndexOf('=')` (line 7) to split key/value, while `spec.md` says to split on the **first** `=` so values can contain `=`.",
+      "cost_usd": 0.006049
+    },
+    {
+      "label": "reported",
+      "quote": "`parseEnv.ts` uses `lastIndexOf('=')` (line 7) to split key/value, while `spec.md` says to split on the **first** `=` so values can contain `=`. My tests are correct per spec \u2014 they've caught a genuine implementation bug, not a test bug.",
+      "cost_usd": 0.005409
+    }
+  ],
+  "model": "haiku"
+}

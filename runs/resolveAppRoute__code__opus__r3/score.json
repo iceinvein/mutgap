@@ -1,0 +1,29 @@
+{
+  "task": "resolveAppRoute",
+  "arm": "code",
+  "model": "opus",
+  "rep": 3,
+  "wall_s": 40,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.21344559999999999,
+  "turns": 5,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 37,
+  "detects": false,
+  "locks_in": true,
+  "detecting_tests": [],
+  "locking_tests": [
+    "resolveAppRoute query routing takes precedence over the path"
+  ],
+  "green_on": [
+    "buggy"
+  ],
+  "mutation": {
+    "buggy": 0.8686868686868687
+  },
+  "fix_mutant": null
+}

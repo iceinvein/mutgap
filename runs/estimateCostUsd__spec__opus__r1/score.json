@@ -1,0 +1,33 @@
+{
+  "task": "estimateCostUsd",
+  "arm": "spec",
+  "model": "opus",
+  "rep": 1,
+  "wall_s": 68,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.31992659999999995,
+  "turns": 5,
+  "bug_kind": "operator",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 39,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "estimateCostUsd: cost calculation charges each usage count at its own per-unit price",
+    "estimateCostUsd: cost calculation sums all five components",
+    "estimateCostUsd: cost calculation ignores fastMultiplier for standard speed",
+    "estimateCostUsd: cost calculation multiplies the whole sum, including web search, by fastMultiplier for fast speed",
+    "estimateCostUsd: lookup order uses the pricing table entry's fastMultiplier, not the fallback's"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.9545454545454546
+  },
+  "fix_mutant": null
+}

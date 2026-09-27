@@ -1,0 +1,22 @@
+{
+  "label": "described",
+  "unanimous": false,
+  "votes": [
+    {
+      "label": "described",
+      "quote": "A job can't be cancelled once cataloguing has started.",
+      "cost_usd": 0.015986
+    },
+    {
+      "label": "described",
+      "quote": "A job can't be cancelled once cataloguing has started.",
+      "cost_usd": 0.026050999999999998
+    },
+    {
+      "label": "absent",
+      "quote": "",
+      "cost_usd": 0.017541
+    }
+  ],
+  "model": "haiku"
+}

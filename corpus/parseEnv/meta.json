@@ -1,0 +1,1 @@
+{"name":"parseEnv","source":"iceinvein/agent-skills@e0ba96c:skills/migrate/scripts/leaks.ts:9","bug_kind":"semantic","bug":"splits on the last = instead of the first, so a value containing = is truncated and the key absorbs the rest"}

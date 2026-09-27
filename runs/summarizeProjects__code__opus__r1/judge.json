@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "These behaviours looked possibly unintended, so check them: ... Name ties sort Z to A. The last tie-breaker is `b.displayProject.localeCompare(a.displayProject)`, so `cherry` comes before `apple`. If you want A to Z, swap `a` and `b` and update that test.",
+      "cost_usd": 0.009079
+    },
+    {
+      "label": "reported",
+      "quote": "These behaviours looked possibly unintended, so check them: ... **Name ties sort Z to A.** The last tie-breaker is `b.displayProject.localeCompare(a.displayProject)`, so `cherry` comes before `apple`. If you want A to Z, swap `a` and `b` and update that test.",
+      "cost_usd": 0.012539
+    },
+    {
+      "label": "reported",
+      "quote": "The last tie-breaker is `b.displayProject.localeCompare(a.displayProject)`, so `cherry` comes before `apple`. If you want A to Z, swap `a` and `b` and update that test.",
+      "cost_usd": 0.008914
+    }
+  ],
+  "model": "haiku"
+}

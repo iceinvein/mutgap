@@ -1,0 +1,33 @@
+{
+  "task": "velocities",
+  "arm": "both",
+  "model": "sonnet",
+  "rep": 2,
+  "wall_s": 40,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.1505522,
+  "turns": 7,
+  "bug_kind": "operator",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 13,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "velocities two or more dated completions are enough to measure measures a rate from exactly two dated completions",
+    "velocities era length is 1 day when the era starts and ends on the same day",
+    "velocities era length extends to today when today is later than the last completion",
+    "velocities era length extends to the latest completion when it is later than today",
+    "velocities mixed dated and undated completions only counts dated completions towards n, eraDays, and activeDays"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.8928571428571429
+  },
+  "fix_mutant": null
+}

@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "escapeCsv in src/toCsv.ts:6 wraps quote-containing fields in quotes but never doubles the internal \" characters, so say \"hi\" becomes \"say \"hi\"\" instead of the spec's \"say \"\"hi\"\"\"",
+      "cost_usd": 0.009351
+    },
+    {
+      "label": "reported",
+      "quote": "which reveals a real bug in `toCsv`, not a bad test. `escapeCsv` in `src/toCsv.ts:6` wraps quote-containing fields in quotes but never doubles the internal `\"` characters, so `say \"hi\"` becomes `\"say \"hi\"\"` instead of the spec's `\"say \"\"hi\"\"\"`.",
+      "cost_usd": 0.0062959999999999995
+    },
+    {
+      "label": "reported",
+      "quote": "which reveals a real bug in `toCsv`, not a bad test. `escapeCsv` in `src/toCsv.ts:6` wraps quote-containing fields in quotes but never doubles the internal `\"` characters, so `say \"hi\"` becomes `\"say \"hi\"\"` instead of the spec's `\"say \"\"hi\"\"\"`",
+      "cost_usd": 0.005796000000000001
+    }
+  ],
+  "model": "haiku"
+}

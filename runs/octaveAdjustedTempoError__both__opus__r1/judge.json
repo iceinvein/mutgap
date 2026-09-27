@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The bug: `spec.md` says a candidate of zero should return `Infinity`, but the function returns `1`.",
+      "cost_usd": 0.005373
+    },
+    {
+      "label": "reported",
+      "quote": "The bug: `spec.md` says a candidate of zero should return `Infinity`, but the function returns `1`.",
+      "cost_usd": 0.005863
+    },
+    {
+      "label": "reported",
+      "quote": "The bug: `spec.md` says a candidate of zero should return `Infinity`, but the function returns `1`.",
+      "cost_usd": 0.005743
+    }
+  ],
+  "model": "haiku"
+}

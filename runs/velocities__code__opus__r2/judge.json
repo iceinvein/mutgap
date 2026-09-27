@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "Two dates may be a bug, so I left that case untested. The code returns no rate when there are 2 or fewer dates (`dates.length <= 2`), but its own message says \"one point is not a rate\", which suggests two dates should give a rate.",
+      "cost_usd": 0.010163
+    },
+    {
+      "label": "reported",
+      "quote": "Two dates may be a bug, so I left that case untested. The code returns no rate when there are 2 or fewer dates (`dates.length <= 2`), but its own message says \"one point is not a rate\", which suggests two dates should give a rate. If `<= 2` is intended, the message should probably change. If it isn't, the check should be `< 2`.",
+      "cost_usd": 0.005903
+    },
+    {
+      "label": "reported",
+      "quote": "Two dates may be a bug, so I left that case untested.",
+      "cost_usd": 0.008268
+    }
+  ],
+  "model": "haiku"
+}

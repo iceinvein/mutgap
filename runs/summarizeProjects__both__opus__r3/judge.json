@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "when two projects have the same cost and the same number of events, the spec says they should be sorted by `displayProject` in ascending order. The code sorts them in descending order instead",
+      "cost_usd": 0.008311
+    },
+    {
+      "label": "reported",
+      "quote": "The bug: when two projects have the same cost and the same number of events, the spec says they should be sorted by `displayProject` in ascending order. The code sorts them in descending order instead: it uses `b.displayProject.localeCompare(a.displayProject)` on the last line of `src/summarizeProjects.ts`. For projects `a`, `b` and `c` at equal cost and count, it returns `c, b, a` instead of `a, b, c`.",
+      "cost_usd": 0.007031000000000001
+    },
+    {
+      "label": "reported",
+      "quote": "when two projects have the same cost and the same number of events, the spec says they should be sorted by `displayProject` in ascending order. The code sorts them in descending order instead: it uses `b.displayProject.localeCompare(a.displayProject)` on the last line of `src/summarizeProjects.ts`. For projects `a`, `b` and `c` at equal cost and count, it returns `c, b, a` instead of `a, b, c`.",
+      "cost_usd": 0.007141
+    }
+  ],
+  "model": "haiku"
+}

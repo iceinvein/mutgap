@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The code never checks for `major`. Anything without `minor` is treated as major",
+      "cost_usd": 0.006136000000000001
+    },
+    {
+      "label": "reported",
+      "quote": "The spec says the mode is minor if the word `minor` appears, major if the word `major` appears, and otherwise there is no mode, so the input can't be parsed and the result should be `undefined`. The code never checks for `major`. Anything without `minor` is treated as major:",
+      "cost_usd": 0.0075309999999999995
+    },
+    {
+      "label": "reported",
+      "quote": "The spec says the mode is minor if the word `minor` appears, major if the word `major` appears, and otherwise there is no mode, so the input can't be parsed and the result should be `undefined`. The code never checks for `major`. Anything without `minor` is treated as major",
+      "cost_usd": 0.009171
+    }
+  ],
+  "model": "haiku"
+}

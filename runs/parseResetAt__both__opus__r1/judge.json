@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "both failures are real bugs in `parseResetAt`, not problems with the tests. **`12am` becomes noon instead of midnight.** For `\"12am\"` with a fetch time of 00:05, it returns `\u2026T12:00:00` instead of `\u2026T00:00:00`. **`12pm` becomes midnight of the next day instead of noon.`",
+      "cost_usd": 0.008892
+    },
+    {
+      "label": "reported",
+      "quote": "both failures are real bugs in `parseResetAt`, not problems with the tests.",
+      "cost_usd": 0.012232
+    },
+    {
+      "label": "reported",
+      "quote": "**Bugs found (the code doesn't match `spec.md`):** - **`12am` becomes noon instead of midnight.** For `\"12am\"` with a fetch time of 00:05, it returns `\u2026T12:00:00` instead of `\u2026T00:00:00`.",
+      "cost_usd": 0.006447
+    }
+  ],
+  "model": "haiku"
+}

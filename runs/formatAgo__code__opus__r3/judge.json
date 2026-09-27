@@ -1,0 +1,22 @@
+{
+  "label": "described",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "described",
+      "quote": "anything from 0 to 5 seconds ago returns \"just now\"",
+      "cost_usd": 0.008553999999999999
+    },
+    {
+      "label": "described",
+      "quote": "anything from 0 to 5 seconds ago returns \"just now\"",
+      "cost_usd": 0.010409
+    },
+    {
+      "label": "described",
+      "quote": "anything from 0 to 5 seconds ago returns \"just now\"",
+      "cost_usd": 0.006474000000000001
+    }
+  ],
+  "model": "haiku"
+}

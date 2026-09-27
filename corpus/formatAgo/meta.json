@@ -1,0 +1,1 @@
+{"name":"formatAgo","source":"iceinvein/code_intelligence_mcp_server@42194dd:ui/src/lib/format.ts:12","bug_kind":"operator","bug":"uses <= 5 instead of < 5 for the just-now bucket, so a timestamp exactly 5 seconds old reads \"just now\" instead of \"5s ago\""}

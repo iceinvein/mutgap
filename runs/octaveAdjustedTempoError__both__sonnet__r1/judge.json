@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "This confirms a real bug: the spec requires `candidate === 0` to yield `Infinity`, but the implementation's guard `!(candidate >= 0)` treats `0` as valid, so it returns `1` instead.",
+      "cost_usd": 0.006369
+    },
+    {
+      "label": "reported",
+      "quote": "This confirms a real bug: the spec requires `candidate === 0` to yield `Infinity`, but the implementation's guard `!(candidate >= 0)` treats `0` as valid, so it returns `1` instead.",
+      "cost_usd": 0.005154000000000001
+    },
+    {
+      "label": "reported",
+      "quote": "This confirms a real bug: the spec requires `candidate === 0` to yield `Infinity`, but the implementation's guard `!(candidate >= 0)` treats `0` as valid, so it returns `1` instead.",
+      "cost_usd": 0.005504
+    }
+  ],
+  "model": "haiku"
+}

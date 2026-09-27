@@ -1,0 +1,29 @@
+{
+  "task": "computeEffortScore",
+  "arm": "spec",
+  "model": "sonnet",
+  "rep": 1,
+  "wall_s": 34,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.1286422,
+  "turns": 7,
+  "bug_kind": "operator",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 17,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "computeEffortScore scores at the tier 1 boundary (2 files, 50 lines)"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.9767441860465116
+  },
+  "fix_mutant": null
+}

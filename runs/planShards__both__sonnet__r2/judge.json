@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "the spec states a shard whose total is *exactly* `budget` is allowed, but `planShards.ts` line 40 uses `>=` instead of `>` when checking a single file against `budget` (unlike the `maxFiles` check and the group-level budget check, which both correctly use `>`). So a shard that lands exactly on budget gets split unnecessarily.",
+      "cost_usd": 0.0071849999999999995
+    },
+    {
+      "label": "reported",
+      "quote": "let me know if you'd like me to fix the `>=` \u2192 `>` bug in `planShards.ts` line 40 as well",
+      "cost_usd": 0.010105
+    },
+    {
+      "label": "reported",
+      "quote": "the spec states a shard whose total is *exactly* `budget` is allowed, but `planShards.ts` line 40 uses `>=` instead of `>` when checking a single file against `budget`",
+      "cost_usd": 0.009794999999999998
+    }
+  ],
+  "model": "haiku"
+}

@@ -1,0 +1,222 @@
+{
+  "seed": 20260926,
+  "fraction": 0.2,
+  "note": "second-reader labels against the judge rubric, made by Claude Opus 5.5 in the authoring session after reading each full final message; not yet spot-checked by the author. Sample drawn with random.seed(seed) over sorted judged runs.",
+  "rows": [
+    {
+      "run": "estimateCostUsd__code__opus__r1",
+      "judge": "reported",
+      "hand": "reported"
+    },
+    {
+      "run": "computeEffortScore__code__sonnet__r3",
+      "judge": "absent",
+      "hand": "absent"
+    },
+    {
+      "run": "computeEffortScore__both__sonnet__r2",
+      "judge": "reported",
+      "hand": "reported"
+    },
+    {
+      "run": "resolveAppRoute__code__opus__r1",
+      "judge": "described",
+      "hand": "described"
+    },
+    {
+      "run": "globToRegex__code__sonnet__r2",
+      "judge": "reported",
+      "hand": "described"
+    },
+    {
+      "run": "parseUnifiedDiffToHunks__code__sonnet__r1",
+      "judge": "absent",
+      "hand": "absent"
+    },
+    {
+      "run": "formatDuration__code__sonnet__r3",
+      "judge": "described",
+      "hand": "described"
+    },
+    {
+      "run": "safeFilename__both__sonnet__r2",
+      "judge": "reported",
+      "hand": "reported"
+    },
+    {
+      "run": "computeEffortScore__code__sonnet__r1",
+      "judge": "absent",
+      "hand": "absent"
+    },
+    {
+      "run": "formatAgo__both__sonnet__r3",
+      "judge": "absent",
+      "hand": "absent"
+    },
+    {
+      "run": "octaveAdjustedTempoError__code__sonnet__r3",
+      "judge": "absent",
+      "hand": "described"
+    },
+    {
+      "run": "parseUnifiedDiffToHunks__code__opus__r1",
+      "judge": "reported",
+      "hand": "reported"
+    },
+    {
+      "run": "transitionJob__both__sonnet__r2",
+      "judge": "reported",
+      "hand": "reported"
+    },
+    {
+      "run": "keyScaleAgreement__both__sonnet__r1",
+      "judge": "reported",
+      "hand": "reported"
+    },
+    {
+      "run": "globToRegex__code__sonnet__r1",
+      "judge": "absent",
+      "hand": "absent"
+    },
+    {
+      "run": "formatAgo__code__opus__r3",
+      "judge": "described",
+      "hand": "described"
+    },
+    {
+      "run": "summarizeProjects__code__opus__r3",
+      "judge": "reported",
+      "hand": "reported"
+    },
+    {
+      "run": "toCsv__code__sonnet__r3",
+      "judge": "absent",
+      "hand": "absent"
+    },
+    {
+      "run": "parseEnv__code__opus__r3",
+      "judge": "reported",
+      "hand": "reported"
+    },
+    {
+      "run": "summarizeProjects__code__sonnet__r3",
+      "judge": "absent",
+      "hand": "absent"
+    },
+    {
+      "run": "estimateCostUsd__both__opus__r2",
+      "judge": "reported",
+      "hand": "reported"
+    },
+    {
+      "run": "toCsv__both__sonnet__r2",
+      "judge": "reported",
+      "hand": "reported"
+    },
+    {
+      "run": "normalizeProjectName__code__opus__r2",
+      "judge": "reported",
+      "hand": "reported"
+    },
+    {
+      "run": "toCsv__both__sonnet__r1",
+      "judge": "reported",
+      "hand": "reported"
+    },
+    {
+      "run": "planShards__code__opus__r2",
+      "judge": "reported",
+      "hand": "reported"
+    },
+    {
+      "run": "safeFilename__both__opus__r1",
+      "judge": "reported",
+      "hand": "reported"
+    },
+    {
+      "run": "globToRegex__both__sonnet__r1",
+      "judge": "reported",
+      "hand": "reported"
+    },
+    {
+      "run": "resolveAppRoute__both__sonnet__r2",
+      "judge": "reported",
+      "hand": "reported"
+    },
+    {
+      "run": "resolveAppRoute__code__sonnet__r1",
+      "judge": "absent",
+      "hand": "absent"
+    },
+    {
+      "run": "parseResetAt__code__opus__r2",
+      "judge": "reported",
+      "hand": "reported"
+    },
+    {
+      "run": "summarizeProjects__code__sonnet__r2",
+      "judge": "absent",
+      "hand": "absent"
+    },
+    {
+      "run": "formatDuration__both__sonnet__r3",
+      "judge": "reported",
+      "hand": "reported"
+    },
+    {
+      "run": "globToRegex__both__opus__r2",
+      "judge": "reported",
+      "hand": "reported"
+    },
+    {
+      "run": "formatAgo__code__opus__r2",
+      "judge": "described",
+      "hand": "described"
+    },
+    {
+      "run": "planShards__both__opus__r3",
+      "judge": "reported",
+      "hand": "reported"
+    },
+    {
+      "run": "normalizeProjectName__code__sonnet__r2",
+      "judge": "absent",
+      "hand": "absent"
+    },
+    {
+      "run": "octaveAdjustedTempoError__both__sonnet__r2",
+      "judge": "reported",
+      "hand": "reported"
+    },
+    {
+      "run": "keyScaleAgreement__both__sonnet__r2",
+      "judge": "reported",
+      "hand": "reported"
+    },
+    {
+      "run": "keyScaleAgreement__both__opus__r2",
+      "judge": "reported",
+      "hand": "reported"
+    },
+    {
+      "run": "octaveAdjustedTempoError__both__opus__r3",
+      "judge": "reported",
+      "hand": "reported"
+    },
+    {
+      "run": "computeEffortScore__both__sonnet__r1",
+      "judge": "reported",
+      "hand": "reported"
+    },
+    {
+      "run": "parseResetAt__both__opus__r1",
+      "judge": "reported",
+      "hand": "reported"
+    },
+    {
+      "run": "octaveAdjustedTempoError__code__opus__r2",
+      "judge": "described",
+      "hand": "described"
+    }
+  ]
+}

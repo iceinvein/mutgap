@@ -1,0 +1,1 @@
+{"name":"formatDuration","source":"iceinvein/code_intelligence_mcp_server@42194dd:ui/src/lib/format.ts:30","bug_kind":"operator","bug":"uses <= 10 instead of < 10 for the one-decimal bucket, so exactly 10 seconds formats as \"10.0s\" instead of \"10s\""}

@@ -1,0 +1,33 @@
+{
+  "task": "planShards",
+  "arm": "both",
+  "model": "opus",
+  "rep": 1,
+  "wall_s": 50,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.24542719999999998,
+  "turns": 5,
+  "bug_kind": "operator",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 22,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "planShards line budget allows a shard totalling exactly budget lines (single group)",
+    "planShards line budget allows a shard totalling exactly budget lines (across groups)",
+    "planShards line budget splits a group larger than budget file by file",
+    "planShards line budget handles zero-line files",
+    "planShards file limit applies whichever of budget or maxFiles is hit first"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.875
+  },
+  "fix_mutant": null
+}

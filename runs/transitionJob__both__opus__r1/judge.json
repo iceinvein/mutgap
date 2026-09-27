@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The bug: the code allows `encoding` \u2192 `cancelled`, but `spec.md` says a job can't be cancelled once it reaches `encoding` or `cataloguing`.",
+      "cost_usd": 0.005738
+    },
+    {
+      "label": "reported",
+      "quote": "**The bug:** the code allows `encoding` \u2192 `cancelled`, but `spec.md` says a job can't be cancelled once it reaches `encoding` or `cataloguing`.",
+      "cost_usd": 0.005938000000000001
+    },
+    {
+      "label": "reported",
+      "quote": "The bug: the code allows `encoding` \u2192 `cancelled`, but `spec.md` says a job can't be cancelled once it reaches `encoding` or `cataloguing`.",
+      "cost_usd": 0.006063
+    }
+  ],
+  "model": "haiku"
+}

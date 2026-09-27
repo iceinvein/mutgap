@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "**The bug:** `escapeCsv` in `src/toCsv.ts` wraps a field containing a double quote in quotes, but it doesn't double the quotes inside it. The spec (and RFC 4180) says those inner quotes must be doubled.",
+      "cost_usd": 0.008418
+    },
+    {
+      "label": "reported",
+      "quote": "`escapeCsv` in `src/toCsv.ts` wraps a field containing a double quote in quotes, but it doesn't double the quotes inside it. The spec (and RFC 4180) says those inner quotes must be doubled.",
+      "cost_usd": 0.0060479999999999996
+    },
+    {
+      "label": "reported",
+      "quote": "The bug: `escapeCsv` in `src/toCsv.ts` wraps a field containing a double quote in quotes, but it doesn't double the quotes inside it. The spec (and RFC 4180) says those inner quotes must be doubled.",
+      "cost_usd": 0.005528
+    }
+  ],
+  "model": "haiku"
+}

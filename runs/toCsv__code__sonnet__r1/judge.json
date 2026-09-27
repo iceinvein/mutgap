@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "so a value like `She said \"hi\"` produces `\"She said \"hi\"\"` \u2014 not valid CSV per RFC 4180.",
+      "cost_usd": 0.00658
+    },
+    {
+      "label": "reported",
+      "quote": "wraps values containing `\"` in quotes but never doubles the internal quotes, so a value like `She said \"hi\"` produces `\"She said \"hi\"\"` \u2014 not valid CSV per RFC 4180",
+      "cost_usd": 0.007464999999999999
+    },
+    {
+      "label": "reported",
+      "quote": "One thing worth flagging: `escapeCsv` in `src/toCsv.ts:3-9` wraps values containing `\"` in quotes but never doubles the internal quotes, so a value like `She said \"hi\"` produces `\"She said \"hi\"\"` \u2014 not valid CSV per RFC 4180.",
+      "cost_usd": 0.005275
+    }
+  ],
+  "model": "haiku"
+}

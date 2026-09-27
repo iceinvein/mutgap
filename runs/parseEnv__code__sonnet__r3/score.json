@@ -1,0 +1,29 @@
+{
+  "task": "parseEnv",
+  "arm": "code",
+  "model": "sonnet",
+  "rep": 3,
+  "wall_s": 32,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.1284016,
+  "turns": 7,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 18,
+  "detects": false,
+  "locks_in": true,
+  "detecting_tests": [],
+  "locking_tests": [
+    "parseEnv splits on the last equals sign, folding earlier ones into the key"
+  ],
+  "green_on": [
+    "buggy"
+  ],
+  "mutation": {
+    "buggy": 0.803921568627451
+  },
+  "fix_mutant": null
+}

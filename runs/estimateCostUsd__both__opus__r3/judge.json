@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "**The bug:** the speed multiplier is backwards.",
+      "cost_usd": 0.005826
+    },
+    {
+      "label": "reported",
+      "quote": "So a `\"standard\"` call gets multiplied by `fastMultiplier` and a `\"fast\"` call doesn't, which is the opposite of what `spec.md` says.",
+      "cost_usd": 0.009080999999999999
+    },
+    {
+      "label": "reported",
+      "quote": "the speed multiplier is backwards. In `src/estimateCostUsd.ts` the code has:\n\n```ts\nconst multiplier = usage.speed !== \"fast\" ? pricing.fastMultiplier : 1;\n```\n\nSo a `\"standard\"` call gets multiplied by `fastMultiplier` and a `\"fast\"` call doesn't, which is the opposite of what `spec.md` says.",
+      "cost_usd": 0.007451
+    }
+  ],
+  "model": "haiku"
+}

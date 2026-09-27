@@ -1,0 +1,11 @@
+{
+  "task": "resolveAppRoute",
+  "arm": "spec",
+  "model": "opus",
+  "rep": 3,
+  "wall_s": 78,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.3431594,
+  "turns": 7
+}

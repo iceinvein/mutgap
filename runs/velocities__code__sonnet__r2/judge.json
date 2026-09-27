@@ -1,0 +1,22 @@
+{
+  "label": "described",
+  "unanimous": false,
+  "votes": [
+    {
+      "label": "described",
+      "quote": "covering: insufficient dated completions (0/1/2)",
+      "cost_usd": 0.017054
+    },
+    {
+      "label": "absent",
+      "quote": "",
+      "cost_usd": 0.013009
+    },
+    {
+      "label": "described",
+      "quote": "insufficient dated completions (0/1/2)",
+      "cost_usd": 0.011709
+    }
+  ],
+  "model": "haiku"
+}

@@ -1,0 +1,30 @@
+{
+  "task": "transitionJob",
+  "arm": "both",
+  "model": "opus",
+  "rep": 3,
+  "wall_s": 23,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.1478022,
+  "turns": 3,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 98,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "transitionJob every other move throws INVALID_JOB_TRANSITION encoding -> cancelled",
+    "transitionJob specific rules from the spec rejects cancelling from encoding"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.8918918918918919
+  },
+  "fix_mutant": null
+}

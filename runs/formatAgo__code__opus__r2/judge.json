@@ -1,0 +1,22 @@
+{
+  "label": "described",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "described",
+      "quote": "a difference of 0\u20135 seconds shows \"just now\", and so do times in the future.",
+      "cost_usd": 0.007147
+    },
+    {
+      "label": "described",
+      "quote": "a difference of 0\u20135 seconds shows \"just now\", and so do times in the future.",
+      "cost_usd": 0.010777
+    },
+    {
+      "label": "described",
+      "quote": "a difference of 0\u20135 seconds shows \"just now\", and so do times in the future.",
+      "cost_usd": 0.008552
+    }
+  ],
+  "model": "haiku"
+}

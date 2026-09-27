@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "All tests pass except one that exposes a real bug: `src/transitionJob.ts` line 33 lists `encoding: [\"cataloguing\", \"cancelled\", \"failed\"]`, but `spec.md` explicitly states cancellation is **not** allowed from `encoding` (or `cataloguing`).",
+      "cost_usd": 0.006123
+    },
+    {
+      "label": "reported",
+      "quote": "The test `rejects encoding to cancelled` correctly fails against the current implementation because the code contradicts the spec.",
+      "cost_usd": 0.009518
+    },
+    {
+      "label": "reported",
+      "quote": "All tests pass except one that exposes a real bug: `src/transitionJob.ts` line 33 lists `encoding: [\"cataloguing\", \"cancelled\", \"failed\"]`, but `spec.md` explicitly states cancellation is **not** allowed from `encoding` (or `cataloguing`).",
+      "cost_usd": 0.006878
+    }
+  ],
+  "model": "haiku"
+}

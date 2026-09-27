@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "Because `**` just becomes \"match anything\", the `/` after it is still required. It does match `src//index.ts`. Most glob libraries treat `**/` as \"zero or more directories\", so if you want that behaviour, this test will need updating when you change the function.",
+      "cost_usd": 0.014286
+    },
+    {
+      "label": "reported",
+      "quote": "Two behaviours you might not expect. ... Most glob libraries treat `**/` as \"zero or more directories\", so if you want that behaviour, this test will need updating when you change the function.",
+      "cost_usd": 0.016881
+    },
+    {
+      "label": "reported",
+      "quote": "Most glob libraries treat `**/` as \"zero or more directories\", so if you want that behaviour, this test will need updating when you change the function.",
+      "cost_usd": 0.009291
+    }
+  ],
+  "model": "haiku"
+}

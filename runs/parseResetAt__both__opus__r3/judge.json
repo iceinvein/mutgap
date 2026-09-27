@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "**The bug: 12am and 12pm are handled wrongly for bare times.**",
+      "cost_usd": 0.007634
+    },
+    {
+      "label": "reported",
+      "quote": "**The bug: 12am and 12pm are handled wrongly for bare times.**",
+      "cost_usd": 0.010104
+    },
+    {
+      "label": "reported",
+      "quote": "The bug: 12am and 12pm are handled wrongly for bare times.",
+      "cost_usd": 0.009413999999999999
+    }
+  ],
+  "model": "haiku"
+}

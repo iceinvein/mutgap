@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "Both failures come from a bug in `globToRegex`, not from the tests.",
+      "cost_usd": 0.027792
+    },
+    {
+      "label": "reported",
+      "quote": "the spec says a `/` right after `**` is swallowed by the `**`. The code doesn't do this: at `src/globToRegex.ts:7-9` it turns `**` into `.*` and leaves the next `/` as a required literal.",
+      "cost_usd": 0.008687
+    },
+    {
+      "label": "reported",
+      "quote": "**The bug:** the spec says a `/` right after `**` is swallowed by the `**`. The code doesn't do this: at `src/globToRegex.ts:7-9` it turns `**` into `.*` and leaves the next `/` as a required literal.",
+      "cost_usd": 0.008417
+    }
+  ],
+  "model": "haiku"
+}

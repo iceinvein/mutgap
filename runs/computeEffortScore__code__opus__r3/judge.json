@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "If that 50-line difference isn't what you intended, the code and those tests would both need changing.",
+      "cost_usd": 0.011385
+    },
+    {
+      "label": "reported",
+      "quote": "If that 50-line difference isn't what you intended, the code and those tests would both need changing.",
+      "cost_usd": 0.014100000000000001
+    },
+    {
+      "label": "reported",
+      "quote": "If that 50-line difference isn't what you intended, the code and those tests would both need changing.",
+      "cost_usd": 0.009835
+    }
+  ],
+  "model": "haiku"
+}

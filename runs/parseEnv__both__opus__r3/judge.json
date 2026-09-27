@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The spec says to split at the *first* `=`, so values can contain `=`. The code does the opposite:",
+      "cost_usd": 0.006885
+    },
+    {
+      "label": "reported",
+      "quote": "The bug: at `src/parseEnv.ts:7` the line is split at `lastIndexOf('=')`. The spec says to split at the *first* `=`, so values can contain `=`. The code does the opposite:",
+      "cost_usd": 0.00533
+    },
+    {
+      "label": "reported",
+      "quote": "The bug: at `src/parseEnv.ts:7` the line is split at `lastIndexOf('=')`. The spec says to split at the *first* `=`, so values can contain `=`. The code does the opposite",
+      "cost_usd": 0.00539
+    }
+  ],
+  "model": "haiku"
+}

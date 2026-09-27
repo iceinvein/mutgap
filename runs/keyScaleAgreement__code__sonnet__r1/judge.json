@@ -1,0 +1,22 @@
+{
+  "label": "described",
+  "unanimous": false,
+  "votes": [
+    {
+      "label": "described",
+      "quote": "the default-to-major behavior",
+      "cost_usd": 0.012528
+    },
+    {
+      "label": "described",
+      "quote": "the default-to-major behavior",
+      "cost_usd": 0.017318
+    },
+    {
+      "label": "absent",
+      "quote": "",
+      "cost_usd": 0.007932999999999999
+    }
+  ],
+  "model": "haiku"
+}

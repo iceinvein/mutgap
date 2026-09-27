@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "No line can start with both `+++` and `---`, so this check never skips anything. The spec says lines starting with either one should be skipped, so it needs `||` instead of `&&`.",
+      "cost_usd": 0.008819
+    },
+    {
+      "label": "reported",
+      "quote": "No line can start with both `+++` and `---`, so this check never skips anything. The spec says lines starting with either one should be skipped, so it needs `||` instead of `&&`.",
+      "cost_usd": 0.008359
+    },
+    {
+      "label": "reported",
+      "quote": "No line can start with both `+++` and `---`, so this check never skips anything. The spec says lines starting with either one should be skipped, so it needs `||` instead of `&&`.",
+      "cost_usd": 0.008054
+    }
+  ],
+  "model": "haiku"
+}

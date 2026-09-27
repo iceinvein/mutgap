@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "which correctly exposes a genuine off-by-one bug in `formatAgo.ts:5` \u2014 the code uses `d <= 5` but the spec says exactly 5 seconds should already show `\"5s ago\"` (only *fewer than* 5 is `\"just now\"`)",
+      "cost_usd": 0.006361
+    },
+    {
+      "label": "reported",
+      "quote": "which correctly exposes a genuine off-by-one bug in `formatAgo.ts:5` \u2014 the code uses `d <= 5` but the spec says exactly 5 seconds should already show `\"5s ago\"`",
+      "cost_usd": 0.007031
+    },
+    {
+      "label": "reported",
+      "quote": "one fails at the 5-second boundary, which correctly exposes a genuine off-by-one bug in `formatAgo.ts:5` \u2014 the code uses `d <= 5` but the spec says exactly 5 seconds should already show `\"5s ago\"`",
+      "cost_usd": 0.009561
+    }
+  ],
+  "model": "haiku"
+}

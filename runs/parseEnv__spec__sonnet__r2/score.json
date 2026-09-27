@@ -1,0 +1,30 @@
+{
+  "task": "parseEnv",
+  "arm": "spec",
+  "model": "sonnet",
+  "rep": 2,
+  "wall_s": 41,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.1387874,
+  "turns": 7,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 25,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "parseEnv splits on the first = only, keeping later = in the value",
+    "parseEnv handles a realistic multi-line .env file"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.803921568627451
+  },
+  "fix_mutant": null
+}

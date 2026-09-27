@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "An extension with a leading dot (`\".pdf\"`) would give `doc..pdf`. If either is wrong, change the function and update that test.",
+      "cost_usd": 0.007741
+    },
+    {
+      "label": "reported",
+      "quote": "Behaviour you may want to change. These tests pin down what the function does now, but some of it looks like a bug: An extension with a leading dot (\".pdf\") would give doc..pdf. If either is wrong, change the function and update that test.",
+      "cost_usd": 0.011216
+    },
+    {
+      "label": "reported",
+      "quote": "An extension with a leading dot (`\".pdf\"`) would give `doc..pdf`. If either is wrong, change the function and update that test.",
+      "cost_usd": 0.011366
+    }
+  ],
+  "model": "haiku"
+}

@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The bug: at `src/parseUnifiedDiffToHunks.ts:40` the check uses `&&` where it should use `||`",
+      "cost_usd": 0.006973
+    },
+    {
+      "label": "reported",
+      "quote": "**The bug:** at `src/parseUnifiedDiffToHunks.ts:40` the check uses `&&` where it should use `||`",
+      "cost_usd": 0.007348
+    },
+    {
+      "label": "reported",
+      "quote": "No line can start with both `+++` and `---`, so this condition is never true and nothing gets skipped. As a result, `+++ b/file` is recorded as an added line and `--- a/file` as a removed line, and each one shifts the line numbers after it.",
+      "cost_usd": 0.007428000000000001
+    }
+  ],
+  "model": "haiku"
+}

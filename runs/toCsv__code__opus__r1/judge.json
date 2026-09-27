@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The bug:** `escapeCsv` (`src/toCsv.ts:5-8`) puts quotes around a value that contains `\"`, but doesn't double the quotes inside it. The CSV standard (RFC 4180) requires them to be doubled.",
+      "cost_usd": 0.007351
+    },
+    {
+      "label": "reported",
+      "quote": "The bug: `escapeCsv` (`src/toCsv.ts:5-8`) puts quotes around a value that contains `\"`, but doesn't double the quotes inside it. The CSV standard (RFC 4180) requires them to be doubled.",
+      "cost_usd": 0.006231
+    },
+    {
+      "label": "reported",
+      "quote": "`escapeCsv` (`src/toCsv.ts:5-8`) puts quotes around a value that contains `\"`, but doesn't double the quotes inside it. The CSV standard (RFC 4180) requires them to be doubled.",
+      "cost_usd": 0.008820999999999999
+    }
+  ],
+  "model": "haiku"
+}

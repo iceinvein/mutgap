@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The fix is to change `>=` to `>` on the per-file check.",
+      "cost_usd": 0.00855
+    },
+    {
+      "label": "reported",
+      "quote": "Two of them are marked `it.fails` because they catch a real bug in `planShards`.",
+      "cost_usd": 0.007205
+    },
+    {
+      "label": "reported",
+      "quote": "The check that runs per file uses `currentLines + c.lines >= budget`, but the check that runs per directory group uses `> budget`.",
+      "cost_usd": 0.007304999999999999
+    }
+  ],
+  "model": "haiku"
+}

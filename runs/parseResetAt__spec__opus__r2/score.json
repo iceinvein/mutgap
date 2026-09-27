@@ -1,0 +1,28 @@
+{
+  "task": "parseResetAt",
+  "arm": "spec",
+  "model": "opus",
+  "rep": 2,
+  "wall_s": 71,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.3153638,
+  "turns": 5,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 73,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "parseResetAt bare 12-hour times \"12pm\" is placed on the date of fetchedAt with seconds zero",
+    "parseResetAt bare 12-hour times treats 12am as midnight, which is in the past and so moves to the next day",
+    "parseResetAt bare 12-hour times treats 12:30am as half past midnight",
+    "parseResetAt bare 12-hour times treats 12pm as noon"
+  ],
+  "locking_tests": [],
+  "green_on": [],
+  "mutation": {},
+  "fix_mutant": null
+}

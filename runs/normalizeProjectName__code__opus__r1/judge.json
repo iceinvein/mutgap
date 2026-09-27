@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "**Likely bug I left out of the tests:** when an absolute path ends in a marker, like `/Users/me/code`, the function returns an empty string.",
+      "cost_usd": 0.006646
+    },
+    {
+      "label": "reported",
+      "quote": "Likely bug I left out of the tests: when an absolute path ends in a marker, like `/Users/me/code`, the function returns an empty string. The check `index <= parts.length - 1` is always true, so the empty remainder after the marker is returned. The dash-encoded branch uses `<` instead: it skips that marker and returns `Users-me-code`. I didn't write a test that locks in the empty string. Tell me what `/Users/me/code` should return and I'll fix it and add the test.",
+      "cost_usd": 0.007436
+    },
+    {
+      "label": "reported",
+      "quote": "when an absolute path ends in a marker, like `/Users/me/code`, the function returns an empty string. The check `index <= parts.length - 1` is always true, so the empty remainder after the marker is returned. The dash-encoded branch uses `<` instead: it skips that marker and returns `Users-me-code`.",
+      "cost_usd": 0.007816
+    }
+  ],
+  "model": "haiku"
+}

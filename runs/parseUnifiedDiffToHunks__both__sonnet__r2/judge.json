@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "A string can never start with both `+++` and `---`, so this condition is always false \u2014 it never skips anything.",
+      "cost_usd": 0.008567
+    },
+    {
+      "label": "reported",
+      "quote": "A string can never start with both `+++` and `---`, so this condition is always false \u2014 it never skips anything.",
+      "cost_usd": 0.006532
+    },
+    {
+      "label": "reported",
+      "quote": "these 2 failures are real bugs surfaced by the tests, not test mistakes.",
+      "cost_usd": 0.011956999999999999
+    }
+  ],
+  "model": "haiku"
+}

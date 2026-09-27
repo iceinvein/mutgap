@@ -1,0 +1,22 @@
+{
+  "label": "described",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "described",
+      "quote": "last-`=`-wins key splitting",
+      "cost_usd": 0.007946
+    },
+    {
+      "label": "described",
+      "quote": "last-`=`-wins key splitting",
+      "cost_usd": 0.008026
+    },
+    {
+      "label": "described",
+      "quote": "last-`=`-wins key splitting",
+      "cost_usd": 0.005521
+    }
+  ],
+  "model": "haiku"
+}

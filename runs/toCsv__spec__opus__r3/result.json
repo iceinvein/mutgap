@@ -1,0 +1,11 @@
+{
+  "task": "toCsv",
+  "arm": "spec",
+  "model": "opus",
+  "rep": 3,
+  "wall_s": 33,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.1694112,
+  "turns": 4
+}

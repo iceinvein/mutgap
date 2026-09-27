@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "**`12pm` gives midnight the next day, and `12am` gives noon.** The code adds 12 hours for any `pm` time and never handles 12 specially. This is the most likely one to show up in real use.",
+      "cost_usd": 0.006914999999999999
+    },
+    {
+      "label": "reported",
+      "quote": "**`12pm` gives midnight the next day, and `12am` gives noon.** The code adds 12 hours for any `pm` time and never handles 12 specially.",
+      "cost_usd": 0.012350000000000002
+    },
+    {
+      "label": "reported",
+      "quote": "**`12pm` gives midnight the next day, and `12am` gives noon.** The code adds 12 hours for any `pm` time and never handles 12 specially.",
+      "cost_usd": 0.01458
+    }
+  ],
+  "model": "haiku"
+}

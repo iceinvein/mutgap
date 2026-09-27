@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "These 2 failures confirm a real bug in the implementation: `raw.startsWith('+++') && raw.startsWith('---')` at src/parseUnifiedDiffToHunks.ts:45 is always `false` (a string can't start with both prefixes), so `---`/`+++` lines are never actually skipped \u2014 it should be `||`.",
+      "cost_usd": 0.007996
+    },
+    {
+      "label": "reported",
+      "quote": "These 2 failures confirm a real bug in the implementation: `raw.startsWith('+++') && raw.startsWith('---')` at src/parseUnifiedDiffToHunks.ts:45 is always `false` (a string can't start with both prefixes), so `---`/`+++` lines are never actually skipped \u2014 it should be `||`.",
+      "cost_usd": 0.007896
+    },
+    {
+      "label": "reported",
+      "quote": "These 2 failures confirm a real bug in the implementation: `raw.startsWith('+++') && raw.startsWith('---')` at src/parseUnifiedDiffToHunks.ts:45 is always `false` (a string can't start with both prefixes), so `---`/`+++` lines are never actually skipped \u2014 it should be `||`.",
+      "cost_usd": 0.006510999999999999
+    }
+  ],
+  "model": "haiku"
+}

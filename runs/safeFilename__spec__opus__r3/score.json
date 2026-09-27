@@ -1,0 +1,34 @@
+{
+  "task": "safeFilename",
+  "arm": "spec",
+  "model": "opus",
+  "rep": 3,
+  "wall_s": 43,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.19602419999999998,
+  "turns": 4,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 30,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "safeFilename extension uses an extension starting with a dot as is",
+    "safeFilename extension produces the same result with or without the leading dot",
+    "safeFilename extension does not change the case of the extension",
+    "safeFilename extension handles multi-part extensions",
+    "safeFilename extension does not add a second dot to an extension starting with a dot",
+    "safeFilename extension appends the extension to the fallback name"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.92
+  },
+  "fix_mutant": null
+}

@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "**Leading dot in the extension:** `safeFilename(\"x\", \".pdf\")` returns `x..pdf`.",
+      "cost_usd": 0.005838
+    },
+    {
+      "label": "reported",
+      "quote": "These gaps aren't tested, and you may want to fix them: **Leading dot in the extension:** `safeFilename(\"x\", \".pdf\")` returns `x..pdf`.",
+      "cost_usd": 0.013898
+    },
+    {
+      "label": "reported",
+      "quote": "**Leading dot in the extension:** `safeFilename(\"x\", \".pdf\")` returns `x..pdf`.",
+      "cost_usd": 0.005568
+    }
+  ],
+  "model": "haiku"
+}

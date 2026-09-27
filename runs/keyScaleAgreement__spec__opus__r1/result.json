@@ -1,0 +1,11 @@
+{
+  "task": "keyScaleAgreement",
+  "arm": "spec",
+  "model": "opus",
+  "rep": 1,
+  "wall_s": 70,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.3022488,
+  "turns": 6
+}

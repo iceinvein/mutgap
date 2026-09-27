@@ -1,0 +1,29 @@
+{
+  "task": "resolveAppRoute",
+  "arm": "spec",
+  "model": "sonnet",
+  "rep": 3,
+  "wall_s": 88,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.26669859999999995,
+  "turns": 12,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 38,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "resolveAppRoute path handling takes priority over query when it yields a slug"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.8627450980392157
+  },
+  "fix_mutant": null
+}

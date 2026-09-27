@@ -1,0 +1,31 @@
+{
+  "task": "summarizeProjects",
+  "arm": "spec",
+  "model": "opus",
+  "rep": 2,
+  "wall_s": 104,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.3898134,
+  "turns": 7,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 50,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "summarizeProjects ordering breaks cost and event ties by displayProject ascending",
+    "summarizeProjects ordering uses displayProject, not the raw identifier, for the final tie-break",
+    "summarizeProjects ordering uses localeCompare for the final tie-break"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.9606299212598425
+  },
+  "fix_mutant": null
+}

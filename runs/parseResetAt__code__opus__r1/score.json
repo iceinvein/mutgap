@@ -1,0 +1,32 @@
+{
+  "task": "parseResetAt",
+  "arm": "code",
+  "model": "opus",
+  "rep": 1,
+  "wall_s": 52,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.2405624,
+  "turns": 5,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {
+    "fails": 3
+  },
+  "outcome": "scored",
+  "n_tests": 44,
+  "detects": false,
+  "locks_in": true,
+  "detecting_tests": [],
+  "locking_tests": [
+    "parseResetAt time only parses 12pm as noon",
+    "parseResetAt time only parses 12am as midnight"
+  ],
+  "green_on": [
+    "buggy"
+  ],
+  "mutation": {
+    "buggy": 0.7697368421052632
+  },
+  "fix_mutant": null
+}

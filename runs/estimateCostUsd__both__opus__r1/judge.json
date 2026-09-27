@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "This applies `fastMultiplier` to `\"standard\"` calls and skips it for `\"fast\"` calls, which is the opposite of the spec.",
+      "cost_usd": 0.006739
+    },
+    {
+      "label": "reported",
+      "quote": "Bug 1: the speed multiplier is backwards",
+      "cost_usd": 0.005879
+    },
+    {
+      "label": "reported",
+      "quote": "This applies `fastMultiplier` to `\"standard\"` calls and skips it for `\"fast\"` calls, which is the opposite of the spec.",
+      "cost_usd": 0.006428999999999999
+    }
+  ],
+  "model": "haiku"
+}

@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The failing test: `formatDuration(10000)` returns `\"10.0s\"`, but the spec says `\"10s\"`. At `src/formatDuration.ts:5` the check is `s <= 10`, so exactly 10 seconds still gets one decimal place. It should be `s < 10`.",
+      "cost_usd": 0.006591
+    },
+    {
+      "label": "reported",
+      "quote": "At `src/formatDuration.ts:5` the check is `s <= 10`, so exactly 10 seconds still gets one decimal place. It should be `s < 10`.",
+      "cost_usd": 0.005841000000000001
+    },
+    {
+      "label": "reported",
+      "quote": "At `src/formatDuration.ts:5` the check is `s <= 10`, so exactly 10 seconds still gets one decimal place. It should be `s < 10`.",
+      "cost_usd": 0.005661
+    }
+  ],
+  "model": "haiku"
+}

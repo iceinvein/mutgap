@@ -1,0 +1,29 @@
+{
+  "task": "formatAgo",
+  "arm": "both",
+  "model": "opus",
+  "rep": 1,
+  "wall_s": 35,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.17280820000000002,
+  "turns": 5,
+  "bug_kind": "operator",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 28,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "formatAgo seconds 5s elapsed -> 5s ago"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 1.0
+  },
+  "fix_mutant": null
+}

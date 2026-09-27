@@ -1,0 +1,31 @@
+{
+  "task": "globToRegex",
+  "arm": "spec",
+  "model": "sonnet",
+  "rep": 2,
+  "wall_s": 50,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.17478619999999997,
+  "turns": 10,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 35,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "globToRegex ** as a full segment matches zero directories",
+    "globToRegex ** matches surrounded by literal path segments, zero dirs in between",
+    "globToRegex combinations combines * and ** and literals"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.9148936170212766
+  },
+  "fix_mutant": null
+}

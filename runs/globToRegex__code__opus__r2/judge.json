@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "Most glob libraries (minimatch, picomatch) would match here. If you want that, I can change the function and flip that assertion.",
+      "cost_usd": 0.012384
+    },
+    {
+      "label": "reported",
+      "quote": "Most glob libraries (minimatch, picomatch) would match here. If you want that, I can change the function and flip that assertion.",
+      "cost_usd": 0.022239000000000002
+    },
+    {
+      "label": "reported",
+      "quote": "Most glob libraries (minimatch, picomatch) would match here.",
+      "cost_usd": 0.015734
+    }
+  ],
+  "model": "haiku"
+}

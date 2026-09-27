@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The spec says \"Two or more dated completions are enough to measure,\" so the check should be `dates.length < 2`. As written, exactly two dated completions return `null` rates and the \"not enough\" basis.",
+      "cost_usd": 0.007762
+    },
+    {
+      "label": "reported",
+      "quote": "The spec says \"Two or more dated completions are enough to measure,\" so the check should be `dates.length < 2`.",
+      "cost_usd": 0.0075320000000000005
+    },
+    {
+      "label": "reported",
+      "quote": "The spec says \"Two or more dated completions are enough to measure,\" so the check should be `dates.length < 2`.",
+      "cost_usd": 0.016412
+    }
+  ],
+  "model": "haiku"
+}

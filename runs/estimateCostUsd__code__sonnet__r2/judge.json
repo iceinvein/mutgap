@@ -1,0 +1,22 @@
+{
+  "label": "described",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "described",
+      "quote": "the `fastMultiplier` behavior for `standard` vs `fast` speed",
+      "cost_usd": 0.00698
+    },
+    {
+      "label": "described",
+      "quote": "the `fastMultiplier` behavior for `standard` vs `fast` speed",
+      "cost_usd": 0.014474999999999998
+    },
+    {
+      "label": "described",
+      "quote": "the `fastMultiplier` behavior for `standard` vs `fast` speed",
+      "cost_usd": 0.00801
+    }
+  ],
+  "model": "haiku"
+}

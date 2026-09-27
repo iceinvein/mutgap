@@ -1,0 +1,31 @@
+{
+  "task": "keyScaleAgreement",
+  "arm": "spec",
+  "model": "sonnet",
+  "rep": 3,
+  "wall_s": 69,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.17827700000000002,
+  "turns": 6,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 25,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "keyScaleAgreement unparseable candidate returns undefined when the candidate has no mode",
+    "keyScaleAgreement unparseable candidate returns undefined when \"minor\" only appears as part of another word",
+    "keyScaleAgreement unparseable reference returns undefined when the scale is not major or minor"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.9736842105263158
+  },
+  "fix_mutant": null
+}

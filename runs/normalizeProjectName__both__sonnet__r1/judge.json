@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The implementation has a bug in the absolute-path branch: it checks `index <= parts.length - 1`, which is always true for any valid index, so it never actually excludes a marker that's the final segment (unlike the dash-encoded branch, which correctly uses `index < parts.length - 1`). As a result, when the only marker match is the last segment, the code takes an empty tail and returns `\"\"` instead of falling back to the last-two-segments rule.",
+      "cost_usd": 0.006823
+    },
+    {
+      "label": "reported",
+      "quote": "The implementation has a bug in the absolute-path branch: it checks `index <= parts.length - 1`, which is always true for any valid index, so it never actually excludes a marker that's the final segment (unlike the dash-encoded branch, which correctly uses `index < parts.length - 1`). As a result, when the only marker match is the last segment, the code takes an empty tail and returns `\"\"` instead of falling back to the last-two-segments rule.",
+      "cost_usd": 0.008033
+    },
+    {
+      "label": "reported",
+      "quote": "The implementation has a bug in the absolute-path branch: it checks `index <= parts.length - 1`, which is always true for any valid index, so it never actually excludes a marker that's the final segment (unlike the dash-encoded branch, which correctly uses `index < parts.length - 1`). As a result, when the only marker match is the last segment, the code takes an empty tail and returns `\"\"` instead of falling back to the last-two-segments rule.",
+      "cost_usd": 0.006258
+    }
+  ],
+  "model": "haiku"
+}

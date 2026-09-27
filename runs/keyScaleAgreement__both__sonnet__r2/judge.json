@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "so `\"C\"` alone (or a scale like `\"dorian\"`) is incorrectly treated as major rather than unparseable.",
+      "cost_usd": 0.006163
+    },
+    {
+      "label": "reported",
+      "quote": "this looks like a genuine bug in `keyScaleAgreement.ts` (`mode` always defaults to `\"major\"` instead of `undefined` when neither word is found)",
+      "cost_usd": 0.008833
+    },
+    {
+      "label": "reported",
+      "quote": "this looks like a genuine bug in `keyScaleAgreement.ts` (`mode` always defaults to `\"major\"` instead of `undefined` when neither word is found)",
+      "cost_usd": 0.007123
+    }
+  ],
+  "model": "haiku"
+}

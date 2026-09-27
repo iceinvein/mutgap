@@ -1,0 +1,22 @@
+{
+  "label": "described",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "described",
+      "quote": "including the exact `>=` boundary vs group-level `>` check",
+      "cost_usd": 0.020902
+    },
+    {
+      "label": "described",
+      "quote": "budget splitting (including the exact `>=` boundary vs group-level `>` check)",
+      "cost_usd": 0.010522
+    },
+    {
+      "label": "described",
+      "quote": "budget splitting (including the exact `>=` boundary vs group-level `>` check)",
+      "cost_usd": 0.009267000000000001
+    }
+  ],
+  "model": "haiku"
+}

@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "**Bug 1: exactly 10 s uses the wrong format.** `formatDuration(10000)` returns `\"10.0s\"`, but the spec says `\"10s\"`.",
+      "cost_usd": 0.011833999999999999
+    },
+    {
+      "label": "reported",
+      "quote": "The cause is `s <= 10` in `src/formatDuration.ts:5`; it should be `s < 10`.",
+      "cost_usd": 0.007929
+    },
+    {
+      "label": "reported",
+      "quote": "The cause is `s <= 10` in `src/formatDuration.ts:5`; it should be `s < 10`.",
+      "cost_usd": 0.0058390000000000004
+    }
+  ],
+  "model": "haiku"
+}

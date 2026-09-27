@@ -1,0 +1,22 @@
+{
+  "label": "described",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "described",
+      "quote": "including the `>` vs `>=` asymmetry between group-level and member-level checks",
+      "cost_usd": 0.009133
+    },
+    {
+      "label": "described",
+      "quote": "(including the `>` vs `>=` asymmetry between group-level and member-level checks)",
+      "cost_usd": 0.008122999999999998
+    },
+    {
+      "label": "described",
+      "quote": "including the `>` vs `>=` asymmetry between group-level and member-level checks",
+      "cost_usd": 0.014528000000000001
+    }
+  ],
+  "model": "haiku"
+}

@@ -1,0 +1,39 @@
+{
+  "task": "velocities",
+  "arm": "spec",
+  "model": "sonnet",
+  "rep": 3,
+  "wall_s": 62,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.1819784,
+  "turns": 9,
+  "bug_kind": "operator",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 19,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "velocities not enough dated completions is satisfied by exactly two dated completions",
+    "velocities ignoring invalid doneAt values ignores a null doneAt",
+    "velocities ignoring invalid doneAt values ignores strings that are not in YYYY-MM-DD form",
+    "velocities ignoring invalid doneAt values ignores dates naming a day that does not exist, like 2026-02-31",
+    "velocities ignoring invalid doneAt values ignores dates naming a day that does not exist, like 2026-08-32",
+    "velocities ignoring invalid doneAt values ignores an out-of-range month",
+    "velocities ignoring invalid doneAt values rejects Feb 29 on a non-leap year but accepts it on a leap year",
+    "velocities asIs rate is 1 day when the era starts and ends on the same day",
+    "velocities asIs rate extends the era to today when today is later than the latest completion",
+    "velocities asIs rate extends the era to the latest completion when it is later than today",
+    "velocities asIs rate anchors \"since\" on the earliest dated completion regardless of input order"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.9107142857142857
+  },
+  "fix_mutant": null
+}

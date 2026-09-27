@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The bug: `parseEnv` splits each line at the last `=` (`lastIndexOf` at `src/parseEnv.ts:7`), so any value that contains `=` gets parsed wrong:",
+      "cost_usd": 0.031918
+    },
+    {
+      "label": "reported",
+      "quote": "The bug: `parseEnv` splits each line at the *last* `=` (`lastIndexOf` at `src/parseEnv.ts:7`), so any value that contains `=` gets parsed wrong",
+      "cost_usd": 0.006428
+    },
+    {
+      "label": "reported",
+      "quote": "The bug: `parseEnv` splits each line at the *last* `=` (`lastIndexOf` at `src/parseEnv.ts:7`), so any value that contains `=` gets parsed wrong",
+      "cost_usd": 0.005778
+    }
+  ],
+  "model": "haiku"
+}

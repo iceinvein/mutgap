@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The current implementation in `src/globToRegex.ts` just replaces `**` with `.*` unconditionally (lines 6-13), without special-casing the following `/`. That means: `**/yarn.lock` fails to match `yarn.lock` (no leading `/` in the input, but the regex requires one before the literal text)",
+      "cost_usd": 0.010772
+    },
+    {
+      "label": "reported",
+      "quote": "Per spec.md: when `**` is immediately followed by `/`, that `/` should be consumed as optional, so `**/yarn.lock` matches `yarn.lock` at the root and `a/**/b` matches `a/b`. The current implementation in `src/globToRegex.ts` just replaces `**` with `.*` unconditionally (lines 6-13), without special-casing the following `/`.",
+      "cost_usd": 0.006927
+    },
+    {
+      "label": "reported",
+      "quote": "they're catching a real bug, not a test error",
+      "cost_usd": 0.008827
+    }
+  ],
+  "model": "haiku"
+}

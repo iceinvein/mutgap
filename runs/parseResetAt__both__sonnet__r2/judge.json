@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "reveal a real bug: per spec.md, `12am` should be midnight and `12pm` should be noon, but `parseResetAt` just does `hours = 12; if (pm) hours += 12`, so `12am` becomes 12:00 (noon) instead of 00:00, and `12pm` becomes 24:00 which rolls into the next day instead of staying at noon",
+      "cost_usd": 0.006376
+    },
+    {
+      "label": "reported",
+      "quote": "`12am` should be midnight and `12pm` should be noon, but `parseResetAt` just does `hours = 12; if (pm) hours += 12`, so `12am` becomes 12:00 (noon) instead of 00:00, and `12pm` becomes 24:00 which rolls into the next day instead of staying at noon.",
+      "cost_usd": 0.009776
+    },
+    {
+      "label": "reported",
+      "quote": "Tests are written and passing except for 2 that reveal a real bug: per spec.md, `12am` should be midnight and `12pm` should be noon, but `parseResetAt` just does `hours = 12; if (pm) hours += 12`, so `12am` becomes 12:00 (noon) instead of 00:00, and `12pm` becomes 24:00 which rolls into the next day instead of staying at noon.",
+      "cost_usd": 0.006425999999999999
+    }
+  ],
+  "model": "haiku"
+}

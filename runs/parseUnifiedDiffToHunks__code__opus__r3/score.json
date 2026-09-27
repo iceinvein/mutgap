@@ -1,0 +1,27 @@
+{
+  "task": "parseUnifiedDiffToHunks",
+  "arm": "code",
+  "model": "opus",
+  "rep": 3,
+  "wall_s": 44,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.2145574,
+  "turns": 4,
+  "bug_kind": "operator",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 13,
+  "detects": true,
+  "locks_in": true,
+  "detecting_tests": [
+    "parseUnifiedDiffToHunks does not treat the next file's ---/+++ headers as hunk lines in a multi-file diff"
+  ],
+  "locking_tests": [
+    "parseUnifiedDiffToHunks preserves content after the prefix character, including whitespace and markers"
+  ],
+  "green_on": [],
+  "mutation": {},
+  "fix_mutant": null
+}

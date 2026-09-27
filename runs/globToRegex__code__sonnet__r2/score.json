@@ -1,0 +1,29 @@
+{
+  "task": "globToRegex",
+  "arm": "code",
+  "model": "sonnet",
+  "rep": 2,
+  "wall_s": 61,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.19218659999999996,
+  "turns": 9,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 16,
+  "detects": false,
+  "locks_in": true,
+  "detecting_tests": [],
+  "locking_tests": [
+    "globToRegex ** wildcard still requires the literal slashes surrounding it"
+  ],
+  "green_on": [
+    "buggy"
+  ],
+  "mutation": {
+    "buggy": 0.9523809523809523
+  },
+  "fix_mutant": null
+}

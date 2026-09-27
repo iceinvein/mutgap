@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The bug: `spec.md` says 5 seconds should give `\"5s ago\"`, but the function returns `\"just now\"`. The cause is `src/formatAgo.ts:4`, which uses `d <= 5` where the spec needs `d < 5`. Changing `<=` to `<` fixes it.",
+      "cost_usd": 0.006365
+    },
+    {
+      "label": "reported",
+      "quote": "The bug: `spec.md` says 5 seconds should give `\"5s ago\"`, but the function returns `\"just now\"`. The cause is `src/formatAgo.ts:4`, which uses `d <= 5` where the spec needs `d < 5`. Changing `<=` to `<` fixes it.",
+      "cost_usd": 0.007110000000000001
+    },
+    {
+      "label": "reported",
+      "quote": "The bug: spec.md says 5 seconds should give \"5s ago\", but the function returns \"just now\". The cause is src/formatAgo.ts:4, which uses d <= 5 where the spec needs d < 5.",
+      "cost_usd": 0.0054800000000000005
+    }
+  ],
+  "model": "haiku"
+}

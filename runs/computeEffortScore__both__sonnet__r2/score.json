@@ -1,0 +1,30 @@
+{
+  "task": "computeEffortScore",
+  "arm": "both",
+  "model": "sonnet",
+  "rep": 2,
+  "wall_s": 35,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.1362072,
+  "turns": 8,
+  "bug_kind": "operator",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 15,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "computeEffortScore scores 1 at the exact tier-1 boundary (2 files, 50 lines)",
+    "computeEffortScore counts additions plus deletions across all files toward the line total"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.9767441860465116
+  },
+  "fix_mutant": null
+}

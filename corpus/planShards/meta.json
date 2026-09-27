@@ -1,0 +1,1 @@
+{"name":"planShards","source":"iceinvein/agent-skills@e0ba96c:skills/magpie/scripts/shard.ts:29","bug_kind":"operator","bug":"per-file budget check uses >= instead of >, so a shard that would land exactly on budget is closed one file early"}

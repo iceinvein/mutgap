@@ -1,0 +1,30 @@
+{
+  "task": "planShards",
+  "arm": "code",
+  "model": "opus",
+  "rep": 3,
+  "wall_s": 55,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.2265246,
+  "turns": 7,
+  "bug_kind": "operator",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 15,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "planShards limits allows a shard of exactly the budget across groups",
+    "planShards limits allows a shard of exactly the budget within a single group"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.875
+  },
+  "fix_mutant": null
+}

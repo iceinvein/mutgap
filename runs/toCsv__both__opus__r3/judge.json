@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The bug: `escapeCsv` in `src/toCsv.ts` puts double quotes around a field that needs quoting, but it doesn't double the quotes already inside it.",
+      "cost_usd": 0.006937
+    },
+    {
+      "label": "reported",
+      "quote": "The spec (and RFC 4180) say it should. So `say \"hi\"` comes out as `\"say \"hi\"\"` instead of `\"say \"\"hi\"\"\"`, and that breaks the CSV for anything reading it.",
+      "cost_usd": 0.007917
+    },
+    {
+      "label": "reported",
+      "quote": "The bug: `escapeCsv` in `src/toCsv.ts` puts double quotes around a field that needs quoting, but it doesn't double the quotes already inside it. The spec (and RFC 4180) say it should. So `say \"hi\"` comes out as `\"say \"hi\"\"` instead of `\"say \"\"hi\"\"\"`, and that breaks the CSV for anything reading it.",
+      "cost_usd": 0.005962
+    }
+  ],
+  "model": "haiku"
+}

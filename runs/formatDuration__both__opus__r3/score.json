@@ -1,0 +1,25 @@
+{
+  "task": "formatDuration",
+  "arm": "both",
+  "model": "opus",
+  "rep": 3,
+  "wall_s": 31,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.18569940000000001,
+  "turns": 6,
+  "bug_kind": "operator",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 38,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "formatDuration 10 s up to under 60 s formats 10000 as 10s in whole seconds"
+  ],
+  "locking_tests": [],
+  "green_on": [],
+  "mutation": {},
+  "fix_mutant": null
+}

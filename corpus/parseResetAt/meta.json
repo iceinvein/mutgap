@@ -1,0 +1,1 @@
+{"name":"parseResetAt","source":"iceinvein/token-usage-cost@803506b:src/claude-usage.ts:199","bug_kind":"semantic","bug":"a bare 12am reset time is read as noon, and 12pm rolls over to midnight of the following day","adapted":["exported (private in the source module)","inlined the private helper toIsoLocalDateTime and the constant RESET_TIME_PAST_GRACE_MS"]}

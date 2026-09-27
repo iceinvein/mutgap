@@ -1,0 +1,22 @@
+{
+  "label": "described",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "described",
+      "quote": "1s to 10s, formatted with one decimal place, including the 10000 boundary (`10.0s`)",
+      "cost_usd": 0.009548
+    },
+    {
+      "label": "described",
+      "quote": "1s to 10s, formatted with one decimal place, including the 10000 boundary (`10.0s`)",
+      "cost_usd": 0.007998
+    },
+    {
+      "label": "described",
+      "quote": "1s to 10s, formatted with one decimal place, including the 10000 boundary (`10.0s`)",
+      "cost_usd": 0.011633
+    }
+  ],
+  "model": "haiku"
+}

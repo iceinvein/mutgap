@@ -1,0 +1,1 @@
+{"name":"safeFilename","source":"iceinvein/resume-builder@dd259b9:src/ui/shell/filename.ts:12","bug_kind":"semantic","bug":"always prefixes the extension with a dot, so an extension given as \".pdf\" produces \"name..pdf\""}

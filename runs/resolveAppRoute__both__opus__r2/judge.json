@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The code checks the query before the path (`src/resolveAppRoute.ts:57`)",
+      "cost_usd": 0.012004
+    },
+    {
+      "label": "reported",
+      "quote": "So when both give a slug, the query wins when the path should",
+      "cost_usd": 0.007268999999999999
+    },
+    {
+      "label": "reported",
+      "quote": "The code checks the query before the path (`src/resolveAppRoute.ts:57`): So when both give a slug, the query wins when the path should",
+      "cost_usd": 0.0071189999999999995
+    }
+  ],
+  "model": "haiku"
+}

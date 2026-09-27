@@ -1,0 +1,30 @@
+{
+  "task": "safeFilename",
+  "arm": "both",
+  "model": "sonnet",
+  "rep": 3,
+  "wall_s": 30,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.12105800000000001,
+  "turns": 6,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 17,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "safeFilename uses an extension given with a leading dot as-is",
+    "safeFilename does not add a second dot for a dotted extension"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.92
+  },
+  "fix_mutant": null
+}

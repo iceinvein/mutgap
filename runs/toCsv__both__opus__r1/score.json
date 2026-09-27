@@ -1,0 +1,31 @@
+{
+  "task": "toCsv",
+  "arm": "both",
+  "model": "opus",
+  "rep": 1,
+  "wall_s": 22,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.1433532,
+  "turns": 4,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 15,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "toCsv quotes a field containing a double quote and doubles the quotes",
+    "toCsv escapes a field that is only a double quote",
+    "toCsv escapes quotes in a field that also contains commas and newlines"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 1.0
+  },
+  "fix_mutant": null
+}

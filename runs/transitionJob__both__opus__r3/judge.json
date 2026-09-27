@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "So `transitionJob(\"encoding\", \"cancelled\")` returns `\"cancelled\"` instead of throwing.",
+      "cost_usd": 0.010089
+    },
+    {
+      "label": "reported",
+      "quote": "The implementation allows it: `src/transitionJob.ts:39` lists `\"cancelled\"` as a valid next status for `encoding`. So `transitionJob(\"encoding\", \"cancelled\")` returns `\"cancelled\"` instead of throwing.",
+      "cost_usd": 0.016759
+    },
+    {
+      "label": "reported",
+      "quote": "The bug: `spec.md` says a job can't be cancelled while it's `encoding`. The implementation allows it: `src/transitionJob.ts:39` lists `\"cancelled\"` as a valid next status for `encoding`. So `transitionJob(\"encoding\", \"cancelled\")` returns `\"cancelled\"` instead of throwing.",
+      "cost_usd": 0.007349
+    }
+  ],
+  "model": "haiku"
+}

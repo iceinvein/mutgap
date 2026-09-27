@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "**Possible bug:** the code needs *more than two* dates before it returns a rate (`dates.length <= 2` in `src/velocities.ts`). But its message says \"one point is not a rate\", which suggests two points should be enough.",
+      "cost_usd": 0.007856
+    },
+    {
+      "label": "reported",
+      "quote": "**Possible bug:** the code needs *more than two* dates before it returns a rate (`dates.length <= 2` in `src/velocities.ts`). But its message says \"one point is not a rate\", which suggests two points should be enough.",
+      "cost_usd": 0.007030999999999999
+    },
+    {
+      "label": "reported",
+      "quote": "**Possible bug:** the code needs *more than two* dates before it returns a rate (`dates.length <= 2` in `src/velocities.ts`). But its message says \"one point is not a rate\", which suggests two points should be enough.",
+      "cost_usd": 0.009446
+    }
+  ],
+  "model": "haiku"
+}

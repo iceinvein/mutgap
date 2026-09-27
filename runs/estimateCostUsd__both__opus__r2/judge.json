@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The condition is backwards. The spec says to apply `fastMultiplier` when `speed` is `\"fast\"`. The code applies it to standard calls and leaves fast calls at the plain price.",
+      "cost_usd": 0.008075
+    },
+    {
+      "label": "reported",
+      "quote": "The condition is backwards. The spec says to apply `fastMultiplier` when `speed` is `\"fast\"`. The code applies it to standard calls and leaves fast calls at the plain price.",
+      "cost_usd": 0.006925000000000001
+    },
+    {
+      "label": "reported",
+      "quote": "The condition is backwards. The spec says to apply `fastMultiplier` when `speed` is `\"fast\"`. The code applies it to standard calls and leaves fast calls at the plain price.",
+      "cost_usd": 0.005804999999999999
+    }
+  ],
+  "model": "haiku"
+}

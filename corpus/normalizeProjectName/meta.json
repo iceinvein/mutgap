@@ -1,0 +1,1 @@
+{"name":"normalizeProjectName","source":"iceinvein/token-usage-cost@803506b:src/present.ts:1","bug_kind":"operator","bug":"for an absolute path whose last segment is a marker directory, returns an empty string instead of falling back to the last two segments"}

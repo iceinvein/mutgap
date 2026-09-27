@@ -1,0 +1,32 @@
+{
+  "task": "parseEnv",
+  "arm": "spec",
+  "model": "opus",
+  "rep": 3,
+  "wall_s": 62,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.27271999999999996,
+  "turns": 5,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 61,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "parseEnv keys and values splits on the first = only, so values may contain =",
+    "parseEnv keys and values allows a value that is just =",
+    "parseEnv quotes keeps = and # inside quoted values",
+    "parseEnv parses a realistic .env file"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 1.0
+  },
+  "fix_mutant": null
+}

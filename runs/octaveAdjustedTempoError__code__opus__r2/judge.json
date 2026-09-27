@@ -1,0 +1,22 @@
+{
+  "label": "described",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "described",
+      "quote": "a candidate of `0` returns `1`, and the result is never negative.",
+      "cost_usd": 0.006995
+    },
+    {
+      "label": "described",
+      "quote": "a candidate of `0` returns `1`, and the result is never negative.",
+      "cost_usd": 0.008605
+    },
+    {
+      "label": "described",
+      "quote": "a candidate of `0` returns `1`",
+      "cost_usd": 0.01537
+    }
+  ],
+  "model": "haiku"
+}

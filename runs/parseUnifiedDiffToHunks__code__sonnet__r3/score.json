@@ -1,0 +1,33 @@
+{
+  "task": "parseUnifiedDiffToHunks",
+  "arm": "code",
+  "model": "sonnet",
+  "rep": 3,
+  "wall_s": 34,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.1271394,
+  "turns": 5,
+  "bug_kind": "operator",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 12,
+  "detects": false,
+  "locks_in": false,
+  "detecting_tests": [],
+  "locking_tests": [],
+  "green_on": [
+    "buggy",
+    "reference"
+  ],
+  "mutation": {
+    "buggy": 0.7671232876712328,
+    "reference": 0.7808219178082192
+  },
+  "fix_mutant": {
+    "mutator": "LogicalOperator",
+    "replacement": "raw.startsWith('+++') || raw.startsWith('---')",
+    "status": "Survived"
+  }
+}

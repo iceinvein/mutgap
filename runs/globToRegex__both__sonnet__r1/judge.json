@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "they've caught a real bug in `globToRegex.ts`. The spec says a trailing `/` after `**` should be consumed by the `**` (so `**/yarn.lock` matches `yarn.lock` and `a/**/b` matches `a/b`), but the current implementation just emits `.*` for `**` and leaves the following `/` as a separate literal, so those cases don't match.",
+      "cost_usd": 0.0069
+    },
+    {
+      "label": "reported",
+      "quote": "they've caught a real bug in `globToRegex.ts`. The spec says a trailing `/` after `**` should be consumed by the `**` (so `**/yarn.lock` matches `yarn.lock` and `a/**/b` matches `a/b`), but the current implementation just emits `.*` for `**` and leaves the following `/` as a separate literal, so those cases don't match.",
+      "cost_usd": 0.0077
+    },
+    {
+      "label": "reported",
+      "quote": "they've caught a real bug in `globToRegex.ts`. The spec says a trailing `/` after `**` should be consumed by the `**` (so `**/yarn.lock` matches `yarn.lock` and `a/**/b` matches `a/b`), but the current implementation just emits `.*` for `**` and leaves the following `/` as a separate literal, so those cases don't match.",
+      "cost_usd": 0.007655
+    }
+  ],
+  "model": "haiku"
+}

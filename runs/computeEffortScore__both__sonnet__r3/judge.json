@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "These two failures confirm a real bug, not a test mistake: `computeEffortScore.ts:10` uses `lines < 50` instead of `lines <= 50`, so exactly 50 changed lines across 2 files scores 2 instead of the spec's 1.",
+      "cost_usd": 0.006562999999999999
+    },
+    {
+      "label": "reported",
+      "quote": "These two failures confirm a real bug, not a test mistake: `computeEffortScore.ts:10` uses `lines < 50` instead of `lines <= 50`, so exactly 50 changed lines across 2 files scores 2 instead of the spec's 1.",
+      "cost_usd": 0.0057680000000000006
+    },
+    {
+      "label": "reported",
+      "quote": "These two failures confirm a real bug, not a test mistake: `computeEffortScore.ts:10` uses `lines < 50` instead of `lines <= 50`, so exactly 50 changed lines across 2 files scores 2 instead of the spec's 1.",
+      "cost_usd": 0.006017999999999999
+    }
+  ],
+  "model": "haiku"
+}

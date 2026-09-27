@@ -1,0 +1,29 @@
+{
+  "task": "toCsv",
+  "arm": "code",
+  "model": "opus",
+  "rep": 1,
+  "wall_s": 25,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.1478598,
+  "turns": 5,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 12,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "toCsv quotes and doubles embedded double quotes (RFC 4180)"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 1.0
+  },
+  "fix_mutant": null
+}

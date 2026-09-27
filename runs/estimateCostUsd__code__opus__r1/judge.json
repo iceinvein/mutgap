@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The condition is backwards. The fast multiplier is applied to standard-speed requests, and fast requests are charged at the base rate.",
+      "cost_usd": 0.006207
+    },
+    {
+      "label": "reported",
+      "quote": "The condition is backwards. The fast multiplier is applied to standard-speed requests, and fast requests are charged at the base rate.",
+      "cost_usd": 0.006026999999999999
+    },
+    {
+      "label": "reported",
+      "quote": "The condition is backwards. The fast multiplier is applied to standard-speed requests, and fast requests are charged at the base rate.",
+      "cost_usd": 0.007927
+    }
+  ],
+  "model": "haiku"
+}

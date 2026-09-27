@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "mishandles `12am`/`12pm` in bare 12-hour times \u2014 it doesn't reduce hour 12 mod 12 before adding 12 for PM, so `12am` resolves to noon and `12pm` overflows into the next day at midnight. 25/27 tests pass; those 2 fail against the spec and reveal a real bug in `src/parseResetAt.ts`",
+      "cost_usd": 0.006188
+    },
+    {
+      "label": "reported",
+      "quote": "`parseResetAt.ts` mishandles `12am`/`12pm` in bare 12-hour times \u2014 it doesn't reduce hour 12 mod 12 before adding 12 for PM, so `12am` resolves to noon and `12pm` overflows into the next day at midnight",
+      "cost_usd": 0.007533
+    },
+    {
+      "label": "reported",
+      "quote": "those 2 fail against the spec and reveal a real bug in `src/parseResetAt.ts` (lines 56\u201360)",
+      "cost_usd": 0.005533
+    }
+  ],
+  "model": "haiku"
+}

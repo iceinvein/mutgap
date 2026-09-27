@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "including the quirk that it still requires literal slashes around it rather than absorbing zero segments",
+      "cost_usd": 0.012187
+    },
+    {
+      "label": "reported",
+      "quote": "including the quirk that it still requires literal slashes around it rather than absorbing zero segments",
+      "cost_usd": 0.011362
+    },
+    {
+      "label": "reported",
+      "quote": "including the quirk that it still requires literal slashes around it rather than absorbing zero segments",
+      "cost_usd": 0.008627
+    }
+  ],
+  "model": "haiku"
+}

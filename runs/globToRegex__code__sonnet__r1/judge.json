@@ -1,0 +1,22 @@
+{
+  "label": "absent",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "absent",
+      "quote": "",
+      "cost_usd": 0.010612
+    },
+    {
+      "label": "absent",
+      "quote": "",
+      "cost_usd": 0.008891999999999999
+    },
+    {
+      "label": "absent",
+      "quote": "",
+      "cost_usd": 0.008562
+    }
+  ],
+  "model": "haiku"
+}

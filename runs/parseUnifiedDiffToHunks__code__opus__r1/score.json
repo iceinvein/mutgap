@@ -1,0 +1,29 @@
+{
+  "task": "parseUnifiedDiffToHunks",
+  "arm": "code",
+  "model": "opus",
+  "rep": 1,
+  "wall_s": 39,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.20230379999999998,
+  "turns": 3,
+  "bug_kind": "operator",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 13,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "parseUnifiedDiffToHunks does not treat file headers of a following file as hunk lines"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.863013698630137
+  },
+  "fix_mutant": null
+}

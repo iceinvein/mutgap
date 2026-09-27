@@ -1,0 +1,22 @@
+{
+  "label": "described",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "described",
+      "quote": "last-`=` splitting behavior",
+      "cost_usd": 0.007357000000000001
+    },
+    {
+      "label": "described",
+      "quote": "last-`=` splitting behavior",
+      "cost_usd": 0.009862000000000001
+    },
+    {
+      "label": "described",
+      "quote": "last-`=` splitting behavior",
+      "cost_usd": 0.0067020000000000005
+    }
+  ],
+  "model": "haiku"
+}

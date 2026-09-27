@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The code adds 12 hours for any `pm` time and never handles 12 specially: - `12am` returns 12:00 (noon) instead of 00:00 (midnight). - `12pm` becomes hour 24, so it rolls over to midnight the next day instead of noon today.",
+      "cost_usd": 0.0073880000000000005
+    },
+    {
+      "label": "reported",
+      "quote": "The bug: bare times at 12 o'clock come out wrong",
+      "cost_usd": 0.009438
+    },
+    {
+      "label": "reported",
+      "quote": "**The bug:** bare times at 12 o'clock come out wrong (`src/parseResetAt.ts`, where the time-only case handles am/pm). The code adds 12 hours for any `pm` time and never handles 12 specially: `12am` returns 12:00 (noon) instead of 00:00 (midnight). `12pm` becomes hour 24, so it rolls over to midnight the next day instead of noon today.",
+      "cost_usd": 0.006958
+    }
+  ],
+  "model": "haiku"
+}

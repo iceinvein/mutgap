@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "for absolute paths, the spec says a marker only counts if it isn't the last segment. At `src/normalizeProjectName.ts:7` the check is `index <= parts.length - 1`. That's true for any marker that exists at all, so a marker in the last position still counts. Nothing comes after it, so the function returns an empty string",
+      "cost_usd": 0.009022
+    },
+    {
+      "label": "reported",
+      "quote": "The bug: for absolute paths, the spec says a marker only counts if it isn't the last segment. At `src/normalizeProjectName.ts:7` the check is `index <= parts.length - 1`. That's true for any marker that exists at all, so a marker in the last position still counts. Nothing comes after it, so the function returns an empty string",
+      "cost_usd": 0.008937
+    },
+    {
+      "label": "reported",
+      "quote": "The bug: for absolute paths, the spec says a marker only counts if it isn't the last segment.",
+      "cost_usd": 0.019422
+    }
+  ],
+  "model": "haiku"
+}

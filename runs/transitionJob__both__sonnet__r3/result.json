@@ -1,0 +1,11 @@
+{
+  "task": "transitionJob",
+  "arm": "both",
+  "model": "sonnet",
+  "rep": 3,
+  "wall_s": 43,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.1514792,
+  "turns": 8
+}

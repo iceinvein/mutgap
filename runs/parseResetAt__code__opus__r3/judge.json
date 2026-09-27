@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The function has bugs. Writing the tests turned up four cases where `parseResetAt` returns the wrong answer: | `Resets 12pm` (fetched 10:00) | midnight the next day | noon today | | `Resets 12am` | noon today | midnight tonight |",
+      "cost_usd": 0.011712
+    },
+    {
+      "label": "reported",
+      "quote": "The 12am/12pm fix is small: use `hours % 12`, then add 12 for pm.",
+      "cost_usd": 0.010901999999999998
+    },
+    {
+      "label": "reported",
+      "quote": "The function has bugs.",
+      "cost_usd": 0.009492
+    }
+  ],
+  "model": "haiku"
+}

@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "**The bug:** for absolute paths, a marker that is the last segment is still treated as a match. `spec.md` says it shouldn't count.",
+      "cost_usd": 0.00806
+    },
+    {
+      "label": "reported",
+      "quote": "The bug: for absolute paths, a marker that is the last segment is still treated as a match. `spec.md` says it shouldn't count. The condition at `src/normalizeProjectName.ts:8` is: `if (index >= 0 && index <= parts.length - 1) {` That's always true once the marker is found. It should be `index < parts.length - 1`",
+      "cost_usd": 0.007245
+    },
+    {
+      "label": "reported",
+      "quote": "**The bug:** for absolute paths, a marker that is the last segment is still treated as a match. `spec.md` says it shouldn't count. Because of this, the part after the marker is empty and the function returns `\"\"`:",
+      "cost_usd": 0.011795000000000002
+    }
+  ],
+  "model": "haiku"
+}

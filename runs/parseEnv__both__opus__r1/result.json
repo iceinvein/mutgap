@@ -1,0 +1,11 @@
+{
+  "task": "parseEnv",
+  "arm": "both",
+  "model": "opus",
+  "rep": 1,
+  "wall_s": 28,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.1529722,
+  "turns": 3
+}

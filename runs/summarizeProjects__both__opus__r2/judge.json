@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "when two projects have the same cost and the same event count, the spec says they should be sorted by `displayProject` A\u2192Z. The code sorts them Z\u2192A.",
+      "cost_usd": 0.007973000000000001
+    },
+    {
+      "label": "reported",
+      "quote": "The bug: when two projects have the same cost and the same event count, the spec says they should be sorted by `displayProject` A\u2192Z. The code sorts them Z\u2192A.",
+      "cost_usd": 0.024368
+    },
+    {
+      "label": "reported",
+      "quote": "when two projects have the same cost and the same event count, the spec says they should be sorted by `displayProject` A\u2192Z. The code sorts them Z\u2192A.",
+      "cost_usd": 0.009088
+    }
+  ],
+  "model": "haiku"
+}

@@ -1,0 +1,11 @@
+{
+  "task": "velocities",
+  "arm": "spec",
+  "model": "sonnet",
+  "rep": 1,
+  "wall_s": 63,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.17138559999999997,
+  "turns": 6
+}

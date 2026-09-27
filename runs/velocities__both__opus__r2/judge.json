@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The spec says \"Two or more dated completions are enough to measure\", so the check should be `dates.length < 2`.",
+      "cost_usd": 0.007866
+    },
+    {
+      "label": "reported",
+      "quote": "The spec says \"Two or more dated completions are enough to measure\", so the check should be `dates.length < 2`.",
+      "cost_usd": 0.007871
+    },
+    {
+      "label": "reported",
+      "quote": "**The bug:** `src/velocities.ts:20` checks `if (dates.length <= 2)`, so exactly two dated completions come back as \"not enough to measure\". The spec says \"Two or more dated completions are enough to measure\", so the check should be `dates.length < 2`.",
+      "cost_usd": 0.005586
+    }
+  ],
+  "model": "haiku"
+}

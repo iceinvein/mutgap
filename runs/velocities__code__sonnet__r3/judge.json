@@ -1,0 +1,22 @@
+{
+  "label": "described",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "described",
+      "quote": "the \u22642 vs \u22653 boundary",
+      "cost_usd": 0.014617000000000002
+    },
+    {
+      "label": "described",
+      "quote": "covering: empty/null/invalid dates, the \u22642 vs \u22653 boundary, era-day extension in both directions (today after/before last completion), duplicate-day handling for the active rate, and sorting unordered input.",
+      "cost_usd": 0.011747
+    },
+    {
+      "label": "described",
+      "quote": "the \u22642 vs \u22653 boundary",
+      "cost_usd": 0.006987
+    }
+  ],
+  "model": "haiku"
+}

@@ -1,0 +1,11 @@
+{
+  "task": "estimateCostUsd",
+  "arm": "spec",
+  "model": "opus",
+  "rep": 2,
+  "wall_s": 78,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.3408074,
+  "turns": 5
+}

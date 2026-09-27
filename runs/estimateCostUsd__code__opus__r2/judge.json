@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "This applies `fastMultiplier` to **standard** requests and not to fast ones.",
+      "cost_usd": 0.007122
+    },
+    {
+      "label": "reported",
+      "quote": "This applies `fastMultiplier` to **standard** requests and not to fast ones. The tests confirm it: with a multiplier of 2, standard speed cost 30 instead of 15, and fast speed cost 15 instead of 30.",
+      "cost_usd": 0.007542
+    },
+    {
+      "label": "reported",
+      "quote": "**The bug** is in `src/estimateCostUsd.ts`, where the speed check is backwards: ... This applies `fastMultiplier` to **standard** requests and not to fast ones.",
+      "cost_usd": 0.007866999999999999
+    }
+  ],
+  "model": "haiku"
+}

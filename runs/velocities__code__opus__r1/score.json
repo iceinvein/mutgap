@@ -1,0 +1,33 @@
+{
+  "task": "velocities",
+  "arm": "code",
+  "model": "opus",
+  "rep": 1,
+  "wall_s": 32,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.17331400000000002,
+  "turns": 5,
+  "bug_kind": "operator",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 12,
+  "detects": false,
+  "locks_in": true,
+  "detecting_tests": [],
+  "locking_tests": [
+    "velocities with enough dated completions rejects Feb 29 in a non-leap year"
+  ],
+  "green_on": [
+    "buggy"
+  ],
+  "mutation": {
+    "buggy": 0.9107142857142857
+  },
+  "fix_mutant": {
+    "mutator": "EqualityOperator",
+    "replacement": "dates.length < 2",
+    "status": "Killed"
+  }
+}

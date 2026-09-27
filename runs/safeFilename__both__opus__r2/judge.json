@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The bug: `src/safeFilename.ts:9` always adds a dot (`` `.${extension}` ``). So `safeFilename(\"cv\", \".pdf\")` returns `\"cv..pdf\"`, but the spec says `pdf` and `.pdf` should both give `.pdf`.",
+      "cost_usd": 0.006512
+    },
+    {
+      "label": "reported",
+      "quote": "**The bug:** `src/safeFilename.ts:9` always adds a dot (`` `.${extension}` ``). So `safeFilename(\"cv\", \".pdf\")` returns `\"cv..pdf\"`, but the spec says `pdf` and `.pdf` should both give `.pdf`.",
+      "cost_usd": 0.006317
+    },
+    {
+      "label": "reported",
+      "quote": "The bug: `src/safeFilename.ts:9` always adds a dot (`` `.${extension}` ``). So `safeFilename(\"cv\", \".pdf\")` returns `\"cv..pdf\"`, but the spec says `pdf` and `.pdf` should both give `.pdf`.",
+      "cost_usd": 0.008272
+    }
+  ],
+  "model": "haiku"
+}

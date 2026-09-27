@@ -1,0 +1,31 @@
+{
+  "task": "resolveAppRoute",
+  "arm": "spec",
+  "model": "opus",
+  "rep": 2,
+  "wall_s": 75,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.3079054,
+  "turns": 6,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 125,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "resolveAppRoute precedence path wins over query",
+    "resolveAppRoute precedence falls through to path when the hash yields nothing",
+    "resolveAppRoute precedence a path yielding the resume slug still beats a query slug"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.8921568627450981
+  },
+  "fix_mutant": null
+}

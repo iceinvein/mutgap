@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "the spec says tier 1's line limit is inclusive (\u226450), but `computeEffortScore.ts:10` uses `lines < 50`, so exactly 50 lines incorrectly falls into tier 2",
+      "cost_usd": 0.005241
+    },
+    {
+      "label": "reported",
+      "quote": "That one failure confirms a real bug: the spec says tier 1's line limit is inclusive (\u226450), but `computeEffortScore.ts:10` uses `lines < 50`, so exactly 50 lines incorrectly falls into tier 2.",
+      "cost_usd": 0.006331
+    },
+    {
+      "label": "reported",
+      "quote": "That one failure confirms a real bug: the spec says tier 1's line limit is inclusive (\u226450), but `computeEffortScore.ts:10` uses `lines < 50`, so exactly 50 lines incorrectly falls into tier 2.",
+      "cost_usd": 0.005471
+    }
+  ],
+  "model": "haiku"
+}

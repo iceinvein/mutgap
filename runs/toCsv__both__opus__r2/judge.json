@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "This produces malformed CSV that other tools will misread.",
+      "cost_usd": 0.006553
+    },
+    {
+      "label": "reported",
+      "quote": "This produces malformed CSV that other tools will misread.",
+      "cost_usd": 0.005803
+    },
+    {
+      "label": "reported",
+      "quote": "a field containing a double quote does get wrapped in quotes, but the quotes inside it aren't doubled as the spec requires",
+      "cost_usd": 0.005653
+    }
+  ],
+  "model": "haiku"
+}

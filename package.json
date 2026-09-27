@@ -1,0 +1,10 @@
+{
+  "name": "mutgap",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "@stryker-mutator/core": "^9",
+    "@stryker-mutator/vitest-runner": "^9",
+    "vitest": "^3"
+  }
+}

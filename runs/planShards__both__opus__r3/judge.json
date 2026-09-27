@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The bug: at `src/planShards.ts:40`, the check before adding each file uses `>=` where it should use `>`",
+      "cost_usd": 0.0057079999999999995
+    },
+    {
+      "label": "reported",
+      "quote": "**The bug:** at `src/planShards.ts:40`, the check before adding each file uses `>=` where it should use `>`",
+      "cost_usd": 0.005553000000000001
+    },
+    {
+      "label": "reported",
+      "quote": "The spec says a shard holding exactly `budget` lines is allowed. The code instead closes the shard when a file would bring it *up to* `budget`.",
+      "cost_usd": 0.006143000000000001
+    }
+  ],
+  "model": "haiku"
+}

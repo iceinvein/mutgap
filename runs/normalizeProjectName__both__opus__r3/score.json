@@ -1,0 +1,30 @@
+{
+  "task": "normalizeProjectName",
+  "arm": "both",
+  "model": "opus",
+  "rep": 3,
+  "wall_s": 38,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.2021936,
+  "turns": 4,
+  "bug_kind": "operator",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 41,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "normalizeProjectName absolute paths skips a marker that is the final segment and tries the next one",
+    "normalizeProjectName absolute paths falls back to the last two segments when the only marker is final"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.8969072164948454
+  },
+  "fix_mutant": null
+}

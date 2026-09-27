@@ -1,0 +1,22 @@
+{
+  "label": "described",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "described",
+      "quote": "exactly two dated completions (boundary for \"unmeasured\")",
+      "cost_usd": 0.010261
+    },
+    {
+      "label": "described",
+      "quote": "exactly two dated completions (boundary for \"unmeasured\")",
+      "cost_usd": 0.012095999999999999
+    },
+    {
+      "label": "described",
+      "quote": "exactly two dated completions (boundary for \"unmeasured\")",
+      "cost_usd": 0.013701
+    }
+  ],
+  "model": "haiku"
+}

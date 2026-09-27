@@ -1,0 +1,29 @@
+{
+  "task": "toCsv",
+  "arm": "both",
+  "model": "sonnet",
+  "rep": 1,
+  "wall_s": 28,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.11787,
+  "turns": 7,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 12,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "toCsv wraps a field containing a double quote and doubles the quote"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 1.0
+  },
+  "fix_mutant": null
+}

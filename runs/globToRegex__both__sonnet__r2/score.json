@@ -1,0 +1,31 @@
+{
+  "task": "globToRegex",
+  "arm": "both",
+  "model": "sonnet",
+  "rep": 2,
+  "wall_s": 52,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.1482042,
+  "turns": 6,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 36,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "globToRegex ** matches when the middle segment is absent, consuming the / after **",
+    "globToRegex ** matches yarn.lock at the root when pattern is **/yarn.lock",
+    "globToRegex combined patterns matches a realistic pattern with * and literal directories"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.9148936170212766
+  },
+  "fix_mutant": null
+}

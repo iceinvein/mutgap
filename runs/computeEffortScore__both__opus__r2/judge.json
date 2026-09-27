@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The code checks `lines < 50` instead of `lines <= 50` (`src/computeEffortScore.ts:10`), so that case scores 2.",
+      "cost_usd": 0.007878
+    },
+    {
+      "label": "reported",
+      "quote": "The code checks `lines < 50` instead of `lines <= 50` (`src/computeEffortScore.ts:10`), so that case scores 2. The other tiers already use `<=` correctly.",
+      "cost_usd": 0.007938
+    },
+    {
+      "label": "reported",
+      "quote": "The code checks `lines < 50` instead of `lines <= 50` (`src/computeEffortScore.ts:10`), so that case scores 2.",
+      "cost_usd": 0.005948
+    }
+  ],
+  "model": "haiku"
+}

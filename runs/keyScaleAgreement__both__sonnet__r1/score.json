@@ -1,0 +1,31 @@
+{
+  "task": "keyScaleAgreement",
+  "arm": "both",
+  "model": "sonnet",
+  "rep": 1,
+  "wall_s": 50,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.154282,
+  "turns": 6,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 27,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "keyScaleAgreement missing mode returns undefined when the candidate has no mode word",
+    "keyScaleAgreement missing mode returns undefined when the reference has no mode word",
+    "keyScaleAgreement missing mode returns undefined when neither side has a mode"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.9473684210526315
+  },
+  "fix_mutant": null
+}

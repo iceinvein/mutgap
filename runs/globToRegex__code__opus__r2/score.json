@@ -1,0 +1,29 @@
+{
+  "task": "globToRegex",
+  "arm": "code",
+  "model": "opus",
+  "rep": 2,
+  "wall_s": 29,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.1554874,
+  "turns": 4,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 30,
+  "detects": false,
+  "locks_in": true,
+  "detecting_tests": [],
+  "locking_tests": [
+    "globToRegex ** wildcard requires the surrounding slashes in a/**/b"
+  ],
+  "green_on": [
+    "buggy"
+  ],
+  "mutation": {
+    "buggy": 0.9523809523809523
+  },
+  "fix_mutant": null
+}

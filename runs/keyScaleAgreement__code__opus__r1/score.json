@@ -1,0 +1,30 @@
+{
+  "task": "keyScaleAgreement",
+  "arm": "code",
+  "model": "opus",
+  "rep": 1,
+  "wall_s": 38,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.1789552,
+  "turns": 3,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 24,
+  "detects": false,
+  "locks_in": true,
+  "detecting_tests": [],
+  "locking_tests": [
+    "keyScaleAgreement mode detection defaults to major when no mode is given",
+    "keyScaleAgreement mode detection defaults the baseline to major when the scale is empty"
+  ],
+  "green_on": [
+    "buggy"
+  ],
+  "mutation": {
+    "buggy": 0.9736842105263158
+  },
+  "fix_mutant": null
+}

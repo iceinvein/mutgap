@@ -1,0 +1,22 @@
+{
+  "label": "absent",
+  "unanimous": false,
+  "votes": [
+    {
+      "label": "described",
+      "quote": "and the fast-multiplier behavior",
+      "cost_usd": 0.006124
+    },
+    {
+      "label": "absent",
+      "quote": "",
+      "cost_usd": 0.012614
+    },
+    {
+      "label": "absent",
+      "quote": "",
+      "cost_usd": 0.007854
+    }
+  ],
+  "model": "haiku"
+}

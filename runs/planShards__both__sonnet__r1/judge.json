@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The one failure is a real bug in `planShards.ts`: the spec says a shard totaling *exactly* `budget` lines is allowed, but the per-file check at `planShards.ts:40` uses `currentLines + c.lines >= budget` instead of `> budget`.",
+      "cost_usd": 0.006088
+    },
+    {
+      "label": "reported",
+      "quote": "The one failure is a real bug in `planShards.ts`: the spec says a shard totaling *exactly* `budget` lines is allowed, but the per-file check at `planShards.ts:40` uses `currentLines + c.lines >= budget` instead of `> budget`.",
+      "cost_usd": 0.005478
+    },
+    {
+      "label": "reported",
+      "quote": "The one failure is a real bug in `planShards.ts`: the spec says a shard totaling *exactly* `budget` lines is allowed, but the per-file check at `planShards.ts:40` uses `currentLines + c.lines >= budget` instead of `> budget`.",
+      "cost_usd": 0.006708
+    }
+  ],
+  "model": "haiku"
+}

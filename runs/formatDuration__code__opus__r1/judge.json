@@ -1,0 +1,22 @@
+{
+  "label": "described",
+  "unanimous": false,
+  "votes": [
+    {
+      "label": "absent",
+      "quote": "",
+      "cost_usd": 0.040858000000000005
+    },
+    {
+      "label": "described",
+      "quote": "**1 to 10 seconds:** shown with one decimal, e.g. `1.0s`, `1.2s`, and `9999` gives `10.0s`.",
+      "cost_usd": 0.013098
+    },
+    {
+      "label": "described",
+      "quote": "1 to 10 seconds: shown with one decimal, e.g. `1.0s`, `1.2s`, and `9999` gives `10.0s`.",
+      "cost_usd": 0.011308
+    }
+  ],
+  "model": "haiku"
+}

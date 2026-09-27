@@ -1,0 +1,32 @@
+{
+  "task": "parseUnifiedDiffToHunks",
+  "arm": "spec",
+  "model": "opus",
+  "rep": 2,
+  "wall_s": 71,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.3254664,
+  "turns": 5,
+  "bug_kind": "operator",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 32,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "parseUnifiedDiffToHunks skipped lines skips lines starting with +++ (including an added line whose text begins with ++)",
+    "parseUnifiedDiffToHunks skipped lines skips lines starting with --- (including a removed line whose text begins with --)",
+    "parseUnifiedDiffToHunks multi-file diffs returns a flat array of hunks across files in input order",
+    "parseUnifiedDiffToHunks multi-file diffs does not let the next file headers join the previous hunk"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.9178082191780822
+  },
+  "fix_mutant": null
+}

@@ -1,0 +1,22 @@
+{
+  "label": "described",
+  "unanimous": false,
+  "votes": [
+    {
+      "label": "described",
+      "quote": "**Precedence:** hash beats query, and query beats path.",
+      "cost_usd": 0.026345
+    },
+    {
+      "label": "described",
+      "quote": "**Precedence:** hash beats query, and query beats path.",
+      "cost_usd": 0.0223
+    },
+    {
+      "label": "reported",
+      "quote": "**Current behaviour the tests lock in** (worth a check that it's intended):",
+      "cost_usd": 0.025785000000000002
+    }
+  ],
+  "model": "haiku"
+}

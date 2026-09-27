@@ -1,0 +1,22 @@
+{
+  "label": "described",
+  "unanimous": false,
+  "votes": [
+    {
+      "label": "described",
+      "quote": "anything that doesn't contain the word \"minor\" counts as major, including a bare `\"C\"`, an empty scale, `\"ionian\"` and `\"minorish\"`.",
+      "cost_usd": 0.010012
+    },
+    {
+      "label": "reported",
+      "quote": "**Odd behaviour the tests don't lock in.** Some of this may be bugs, so I left it untested: ... **Mode:** anything that doesn't contain the word \"minor\" counts as major, including a bare `\"C\"`",
+      "cost_usd": 0.009447
+    },
+    {
+      "label": "described",
+      "quote": "**Mode:** anything that doesn't contain the word \"minor\" counts as major, including a bare `\"C\"`, an empty scale, `\"ionian\"` and `\"minorish\"`.",
+      "cost_usd": 0.015227000000000001
+    }
+  ],
+  "model": "haiku"
+}

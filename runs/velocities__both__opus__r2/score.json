@@ -1,0 +1,30 @@
+{
+  "task": "velocities",
+  "arm": "both",
+  "model": "opus",
+  "rep": 2,
+  "wall_s": 42,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.19642940000000003,
+  "turns": 4,
+  "bug_kind": "operator",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 26,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "velocities exactly two dated completions is enough to measure",
+    "velocities exactly two dated completions is enough to measure when both are on the same day"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.9107142857142857
+  },
+  "fix_mutant": null
+}

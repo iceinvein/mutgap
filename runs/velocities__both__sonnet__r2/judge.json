@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "These 5 failures confirm a real bug in `src/velocities.ts:21`: it uses `dates.length <= 2`, treating exactly two dated completions as \"not enough,\" but the spec says \"two or more dated completions are enough to measure\" and \"fewer than two\" is the cutoff. It should be `dates.length < 2`.",
+      "cost_usd": 0.007692
+    },
+    {
+      "label": "reported",
+      "quote": "These 5 failures confirm a real bug in `src/velocities.ts:21`: it uses `dates.length <= 2`, treating exactly two dated completions as \"not enough,\" but the spec says \"two or more dated completions are enough to measure\" and \"fewer than two\" is the cutoff. It should be `dates.length < 2`.",
+      "cost_usd": 0.008487
+    },
+    {
+      "label": "reported",
+      "quote": "These 5 failures confirm a real bug in `src/velocities.ts:21`: it uses `dates.length <= 2`, treating exactly two dated completions as \"not enough,\" but the spec says \"two or more dated completions are enough to measure\" and \"fewer than two\" is the cutoff. It should be `dates.length < 2`.",
+      "cost_usd": 0.007451999999999999
+    }
+  ],
+  "model": "haiku"
+}

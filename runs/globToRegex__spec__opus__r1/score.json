@@ -1,0 +1,30 @@
+{
+  "task": "globToRegex",
+  "arm": "spec",
+  "model": "opus",
+  "rep": 1,
+  "wall_s": 50,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.2302422,
+  "turns": 5,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 39,
+  "detects": true,
+  "locks_in": true,
+  "detecting_tests": [
+    "globToRegex ** followed by / leading **/ matches at the root and at any depth",
+    "globToRegex ** followed by / middle /**/ matches zero or more directories",
+    "globToRegex ** followed by / supports several **/ in one pattern"
+  ],
+  "locking_tests": [
+    "globToRegex ** followed by / leading **/ still requires the rest to match a whole segment",
+    "globToRegex ** followed by / middle /**/ does not match a partial segment"
+  ],
+  "green_on": [],
+  "mutation": {},
+  "fix_mutant": null
+}

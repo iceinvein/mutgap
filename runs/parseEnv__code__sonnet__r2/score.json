@@ -1,0 +1,29 @@
+{
+  "task": "parseEnv",
+  "arm": "code",
+  "model": "sonnet",
+  "rep": 2,
+  "wall_s": 38,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.1396172,
+  "turns": 8,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 15,
+  "detects": false,
+  "locks_in": true,
+  "detecting_tests": [],
+  "locking_tests": [
+    "parseEnv splits on the last \"=\", keeping earlier \"=\" characters in the key"
+  ],
+  "green_on": [
+    "buggy"
+  ],
+  "mutation": {
+    "buggy": 0.7647058823529411
+  },
+  "fix_mutant": null
+}

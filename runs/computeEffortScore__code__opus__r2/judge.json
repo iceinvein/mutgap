@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "If `< 50` is a mistake, the test at 50 lines will need updating when you fix it.",
+      "cost_usd": 0.010025
+    },
+    {
+      "label": "reported",
+      "quote": "If `< 50` is a mistake, the test at 50 lines will need updating when you fix it.",
+      "cost_usd": 0.01
+    },
+    {
+      "label": "reported",
+      "quote": "One thing you might want to check: score 1 uses `lines < 50`, but every other limit uses `<=`. So a PR with exactly 50 lines gets a 2, while one with exactly 200 lines still gets a 2. The tests lock in the current behaviour. If `< 50` is a mistake, the test at 50 lines will need updating when you fix it.",
+      "cost_usd": 0.00664
+    }
+  ],
+  "model": "haiku"
+}

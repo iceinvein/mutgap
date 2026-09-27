@@ -1,0 +1,25 @@
+{
+  "task": "summarizeProjects",
+  "arm": "spec",
+  "model": "sonnet",
+  "rep": 3,
+  "wall_s": 158,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.3641798,
+  "turns": 11,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 22,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "summarizeProjects ordering orders by total cost desc, then events desc, then displayProject ascending"
+  ],
+  "locking_tests": [],
+  "green_on": [],
+  "mutation": {},
+  "fix_mutant": null
+}

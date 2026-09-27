@@ -1,0 +1,30 @@
+{
+  "task": "normalizeProjectName",
+  "arm": "spec",
+  "model": "sonnet",
+  "rep": 2,
+  "wall_s": 94,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.24828359999999997,
+  "turns": 9,
+  "bug_kind": "operator",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 27,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "normalizeProjectName absolute paths treats a marker as not counting when it is the final segment",
+    "normalizeProjectName absolute paths falls back to the next marker when the first marker only occurs as the final segment"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.8865979381443299
+  },
+  "fix_mutant": null
+}

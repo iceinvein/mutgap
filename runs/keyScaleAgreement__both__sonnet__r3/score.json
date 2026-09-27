@@ -1,0 +1,30 @@
+{
+  "task": "keyScaleAgreement",
+  "arm": "both",
+  "model": "sonnet",
+  "rep": 3,
+  "wall_s": 96,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.2187222,
+  "turns": 7,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 20,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "keyScaleAgreement unparseable text returns undefined when the candidate has no mode word",
+    "keyScaleAgreement unparseable text returns undefined when the reference scale has no mode word"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.9473684210526315
+  },
+  "fix_mutant": null
+}

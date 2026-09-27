@@ -1,0 +1,29 @@
+{
+  "task": "transitionJob",
+  "arm": "spec",
+  "model": "sonnet",
+  "rep": 2,
+  "wall_s": 48,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.17205859999999998,
+  "turns": 10,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 60,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "transitionJob moves to cancelled rejects encoding -> cancelled"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.8918918918918919
+  },
+  "fix_mutant": null
+}

@@ -1,0 +1,34 @@
+{
+  "task": "velocities",
+  "arm": "both",
+  "model": "sonnet",
+  "rep": 1,
+  "wall_s": 55,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.1808848,
+  "turns": 8,
+  "bug_kind": "operator",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 11,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "velocities measures a rate from exactly two dated completions",
+    "velocities ignores completions whose doneAt is not in YYYY-MM-DD form",
+    "velocities ignores completions that do not name a real calendar day",
+    "velocities extends the era to today when today is after the latest completion",
+    "velocities uses the latest completion as the era end when it is after today",
+    "velocities counts an era starting and ending on the same day as 1 day"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.8928571428571429
+  },
+  "fix_mutant": null
+}

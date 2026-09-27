@@ -1,0 +1,31 @@
+{
+  "task": "estimateCostUsd",
+  "arm": "both",
+  "model": "opus",
+  "rep": 2,
+  "wall_s": 45,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.2554474,
+  "turns": 4,
+  "bug_kind": "operator",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 32,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "estimateCostUsd speed uses the sum as is for standard speed",
+    "estimateCostUsd speed multiplies the sum by fastMultiplier for fast speed",
+    "estimateCostUsd speed applies the multiplier to web search costs too"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.9545454545454546
+  },
+  "fix_mutant": null
+}

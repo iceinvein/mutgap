@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "which caught a real bug: the spec says the key is everything before the **first** `=`, but `parseEnv.ts:7` uses `lastIndexOf('=')` instead of `indexOf('=')`",
+      "cost_usd": 0.0060669999999999995
+    },
+    {
+      "label": "reported",
+      "quote": "the spec says the key is everything before the **first** `=`, but `parseEnv.ts:7` uses `lastIndexOf('=')` instead of `indexOf('=')`",
+      "cost_usd": 0.005297
+    },
+    {
+      "label": "reported",
+      "quote": "caught a real bug: the spec says the key is everything before the **first** `=`, but `parseEnv.ts:7` uses `lastIndexOf('=')` instead of `indexOf('=')",
+      "cost_usd": 0.005901999999999999
+    }
+  ],
+  "model": "haiku"
+}

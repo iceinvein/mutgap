@@ -1,0 +1,26 @@
+{
+  "task": "estimateCostUsd",
+  "arm": "both",
+  "model": "opus",
+  "rep": 1,
+  "wall_s": 63,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.31293699999999997,
+  "turns": 7,
+  "bug_kind": "operator",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 32,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "estimateCostUsd speed uses the sum as is for standard speed",
+    "estimateCostUsd speed multiplies the whole sum by fastMultiplier for fast speed"
+  ],
+  "locking_tests": [],
+  "green_on": [],
+  "mutation": {},
+  "fix_mutant": null
+}

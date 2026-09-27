@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The 2 failures correctly expose a real bug: `estimateCostUsd.ts:89` has the `speed === \"fast\"` condition inverted, applying `fastMultiplier` when speed is `\"standard\"` instead of `\"fast\"`, as specified in `spec.md`.",
+      "cost_usd": 0.0073290000000000004
+    },
+    {
+      "label": "reported",
+      "quote": "The 2 failures correctly expose a real bug: `estimateCostUsd.ts:89` has the `speed === \"fast\"` condition inverted, applying `fastMultiplier` when speed is `\"standard\"` instead of `\"fast\"`, as specified in `spec.md`.",
+      "cost_usd": 0.005534
+    },
+    {
+      "label": "reported",
+      "quote": "has the `speed === \"fast\"` condition inverted, applying `fastMultiplier` when speed is `\"standard\"` instead of `\"fast\"`, as specified in `spec.md`",
+      "cost_usd": 0.006399
+    }
+  ],
+  "model": "haiku"
+}

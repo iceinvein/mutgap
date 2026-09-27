@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The one failure is a genuine bug in `safeFilename.ts:9`: it always builds the extension as `` `.${extension}` ``, so passing `\".pdf\"` produces `resume..pdf` instead of the spec-required `resume.pdf`.",
+      "cost_usd": 0.006372
+    },
+    {
+      "label": "reported",
+      "quote": "it always builds the extension as `` `.${extension}` ``, so passing `\".pdf\"` produces `resume..pdf` instead of the spec-required `resume.pdf`",
+      "cost_usd": 0.006547
+    },
+    {
+      "label": "reported",
+      "quote": "The one failure is a genuine bug in `safeFilename.ts:9`: it always builds the extension as `` `.${extension}` ``, so passing `\".pdf\"` produces `resume..pdf` instead of the spec-required `resume.pdf`.",
+      "cost_usd": 0.006262
+    }
+  ],
+  "model": "haiku"
+}

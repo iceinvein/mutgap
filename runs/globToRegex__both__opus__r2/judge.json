@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The code turns `**` into `.*` but leaves the `/` after it as a separate, required character.",
+      "cost_usd": 0.006528
+    },
+    {
+      "label": "reported",
+      "quote": "The code turns `**` into `.*` but leaves the `/` after it as a separate, required character. So `**/yarn.lock` becomes `^.*/yarn\\.lock$`, which needs a slash before the file name.",
+      "cost_usd": 0.008118
+    },
+    {
+      "label": "reported",
+      "quote": "The bug:** according to `spec.md`, when `**` is directly followed by `/`, that `/` should be treated as part of the `**`. The code turns `**` into `.*` but leaves the `/` after it as a separate, required character.",
+      "cost_usd": 0.008988
+    }
+  ],
+  "model": "haiku"
+}

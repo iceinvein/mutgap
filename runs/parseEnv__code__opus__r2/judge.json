@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The bug: `src/parseEnv.ts:7` splits each line at the *last* `=` (`lastIndexOf('=')`) instead of the first. Any value that contains `=` gets broken up wrong",
+      "cost_usd": 0.006344000000000001
+    },
+    {
+      "label": "reported",
+      "quote": "The bug: `src/parseEnv.ts:7` splits each line at the *last* `=` (`lastIndexOf('=')`) instead of the first. Any value that contains `=` gets broken up wrong:",
+      "cost_usd": 0.008134
+    },
+    {
+      "label": "reported",
+      "quote": "**The bug:** `src/parseEnv.ts:7` splits each line at the *last* `=` (`lastIndexOf('=')`) instead of the first. Any value that contains `=` gets broken up wrong",
+      "cost_usd": 0.006839
+    }
+  ],
+  "model": "haiku"
+}

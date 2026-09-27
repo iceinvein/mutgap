@@ -1,0 +1,1 @@
+{"name":"keyScaleAgreement","source":"iceinvein/music-creator@bcf6143:scripts/music-analysis/lib.ts:174","bug_kind":"semantic","bug":"text that names neither minor nor major is treated as major instead of unparseable, so a bare \"C\" agrees with C major instead of returning undefined"}

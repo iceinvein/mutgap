@@ -1,0 +1,33 @@
+{
+  "task": "formatDuration",
+  "arm": "code",
+  "model": "sonnet",
+  "rep": 3,
+  "wall_s": 25,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.10170660000000001,
+  "turns": 5,
+  "bug_kind": "operator",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 7,
+  "detects": false,
+  "locks_in": true,
+  "detecting_tests": [],
+  "locking_tests": [
+    "formatDuration formats durations at or below 10s with one decimal place"
+  ],
+  "green_on": [
+    "buggy"
+  ],
+  "mutation": {
+    "buggy": 1.0
+  },
+  "fix_mutant": {
+    "mutator": "EqualityOperator",
+    "replacement": "s < 10",
+    "status": "Killed"
+  }
+}

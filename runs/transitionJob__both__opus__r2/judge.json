@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The bug: spec.md says a job in `encoding` cannot move to `cancelled`. But in `src/transitionJob.ts` the allowed moves list for `encoding` is `[\"cataloguing\", \"cancelled\", \"failed\"]`, so that move goes through when it should throw.",
+      "cost_usd": 0.005671000000000001
+    },
+    {
+      "label": "reported",
+      "quote": "But in `src/transitionJob.ts` the allowed moves list for `encoding` is `[\"cataloguing\", \"cancelled\", \"failed\"]`, so that move goes through when it should throw.",
+      "cost_usd": 0.006336
+    },
+    {
+      "label": "reported",
+      "quote": "so that move goes through when it should throw",
+      "cost_usd": 0.006796
+    }
+  ],
+  "model": "haiku"
+}

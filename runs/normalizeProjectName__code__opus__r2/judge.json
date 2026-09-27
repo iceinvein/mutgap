@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "A marker at the end of an absolute path returns an empty string. `/home/me/code` returns `\"\"`. The dash branch skips a marker in last position, but the absolute-path branch doesn't, because its check `index <= parts.length - 1` is always true. It should probably be `<`, as in the dash branch.",
+      "cost_usd": 0.00774
+    },
+    {
+      "label": "reported",
+      "quote": "It should probably be `<`, as in the dash branch.",
+      "cost_usd": 0.00706
+    },
+    {
+      "label": "reported",
+      "quote": "It should probably be `<`, as in the dash branch.",
+      "cost_usd": 0.00803
+    }
+  ],
+  "model": "haiku"
+}

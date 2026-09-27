@@ -1,0 +1,22 @@
+{
+  "label": "absent",
+  "unanimous": false,
+  "votes": [
+    {
+      "label": "absent",
+      "quote": "",
+      "cost_usd": 0.010242
+    },
+    {
+      "label": "described",
+      "quote": "covering hash/path/query precedence",
+      "cost_usd": 0.009911999999999999
+    },
+    {
+      "label": "absent",
+      "quote": "",
+      "cost_usd": 0.009657
+    }
+  ],
+  "model": "haiku"
+}

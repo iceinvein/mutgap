@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "Confirms it: this is a real bug, not a test-expectation mistake.",
+      "cost_usd": 0.008968
+    },
+    {
+      "label": "reported",
+      "quote": "Confirms it: this is a real bug, not a test-expectation mistake. I've written 19 tests in `src/parseResetAt.test.ts`, 17 pass covering all the working paths (durations, month/day, time-only, undefined/empty input, grace-window rollover). The other 2 intentionally assert correct 12am/12pm behavior and currently **fail**, exposing a bug in `parseResetAt.ts:56-60`: `pm` unconditionally adds 12 (so `12:00pm` becomes hour 24 \u2192 rolls to next midnight instead of staying at noon), and `am` never subtracts 12 for the 12 o'clock case (so `12:00am` becomes noon instead of midnight).",
+      "cost_usd": 0.008513
+    },
+    {
+      "label": "reported",
+      "quote": "Confirms it: this is a real bug, not a test-expectation mistake.",
+      "cost_usd": 0.008563000000000001
+    }
+  ],
+  "model": "haiku"
+}

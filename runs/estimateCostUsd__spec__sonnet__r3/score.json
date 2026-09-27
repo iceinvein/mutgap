@@ -1,0 +1,30 @@
+{
+  "task": "estimateCostUsd",
+  "arm": "spec",
+  "model": "sonnet",
+  "rep": 3,
+  "wall_s": 102,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.29497579999999995,
+  "turns": 12,
+  "bug_kind": "operator",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 27,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "estimateCostUsd - speed multiplier does not scale the total when speed is standard",
+    "estimateCostUsd - speed multiplier scales the summed total by fastMultiplier when speed is fast"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.9545454545454546
+  },
+  "fix_mutant": null
+}

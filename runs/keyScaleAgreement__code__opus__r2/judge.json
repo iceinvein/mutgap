@@ -1,0 +1,22 @@
+{
+  "label": "described",
+  "unanimous": false,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "I didn't write tests that lock these in, because they look like bugs rather than intended behaviour",
+      "cost_usd": 0.009292
+    },
+    {
+      "label": "described",
+      "quote": "major is assumed when no mode is given",
+      "cost_usd": 0.043407
+    },
+    {
+      "label": "described",
+      "quote": "and major is assumed when no mode is given",
+      "cost_usd": 0.023887000000000002
+    }
+  ],
+  "model": "haiku"
+}

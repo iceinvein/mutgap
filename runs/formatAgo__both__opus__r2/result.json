@@ -1,0 +1,11 @@
+{
+  "task": "formatAgo",
+  "arm": "both",
+  "model": "opus",
+  "rep": 2,
+  "wall_s": 30,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.16253620000000002,
+  "turns": 4
+}

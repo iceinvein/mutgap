@@ -1,0 +1,37 @@
+{
+  "task": "estimateCostUsd",
+  "arm": "spec",
+  "model": "sonnet",
+  "rep": 1,
+  "wall_s": 102,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.2790668,
+  "turns": 10,
+  "bug_kind": "operator",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 21,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "estimateCostUsd - cost computation sums each usage count times its per-unit price at standard speed",
+    "estimateCostUsd - cost computation multiplies the summed cost by fastMultiplier when speed is fast",
+    "estimateCostUsd - lookup precedence uses the exact model name in pricingTable when present",
+    "estimateCostUsd - lookup precedence falls back to the canonical model name in pricingTable when no exact match",
+    "estimateCostUsd - lookup precedence prefers a canonical pricingTable match over the built-in fallback",
+    "estimateCostUsd - canonical name derivation strips a trailing -YYYYMMDD date suffix",
+    "estimateCostUsd - canonical name derivation strips a trailing -YYYY-MM-DD date suffix",
+    "estimateCostUsd - canonical name derivation strips everything from the first @ onward",
+    "estimateCostUsd - canonical name derivation strips from the first @ before stripping a trailing date suffix"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.9545454545454546
+  },
+  "fix_mutant": null
+}

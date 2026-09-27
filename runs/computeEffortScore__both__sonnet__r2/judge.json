@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "I found a genuine bug while writing these tests: the spec says tier 1's line limit (50) is inclusive, but the implementation uses `lines < 50` instead of `lines <= 50`.",
+      "cost_usd": 0.007082000000000001
+    },
+    {
+      "label": "reported",
+      "quote": "I found a genuine bug while writing these tests: the spec says tier 1's line limit (50) is inclusive, but the implementation uses `lines < 50` instead of `lines <= 50`.",
+      "cost_usd": 0.0057870000000000005
+    },
+    {
+      "label": "reported",
+      "quote": "I found a genuine bug while writing these tests: the spec says tier 1's line limit (50) is inclusive, but the implementation uses `lines < 50` instead of `lines <= 50`.",
+      "cost_usd": 0.0051719999999999995
+    }
+  ],
+  "model": "haiku"
+}

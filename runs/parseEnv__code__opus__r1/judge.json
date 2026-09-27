@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "src/parseEnv.ts:7 finds the split point with lastIndexOf('='), so it splits on the last = in a line instead of the first.",
+      "cost_usd": 0.007378
+    },
+    {
+      "label": "reported",
+      "quote": "The bug: `src/parseEnv.ts:7` finds the split point with `lastIndexOf('=')`, so it splits on the last `=` in a line instead of the first.",
+      "cost_usd": 0.007713
+    },
+    {
+      "label": "reported",
+      "quote": "**The bug:** `src/parseEnv.ts:7` finds the split point with `lastIndexOf('=')`, so it splits on the last `=` in a line instead of the first. Any value that contains `=` gets broken:",
+      "cost_usd": 0.007603
+    }
+  ],
+  "model": "haiku"
+}

@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "**Bug 1: exactly 10 s uses the wrong format.** Line 5 checks `s <= 10`, but the spec says whole seconds start *at* 10 s. So `10000` gives `\"10.0s\"` when the spec says `\"10s\"`. Changing it to `s < 10` fixes this.",
+      "cost_usd": 0.006899
+    },
+    {
+      "label": "reported",
+      "quote": "Bug 1: exactly 10 s uses the wrong format. Line 5 checks `s <= 10`, but the spec says whole seconds start *at* 10 s. So `10000` gives `\"10.0s\"` when the spec says `\"10s\"`. Changing it to `s < 10` fixes this.",
+      "cost_usd": 0.006094
+    },
+    {
+      "label": "reported",
+      "quote": "**Bug 1: exactly 10 s uses the wrong format.** Line 5 checks `s <= 10`, but the spec says whole seconds start *at* 10 s. So `10000` gives `\"10.0s\"` when the spec says `\"10s\"`.",
+      "cost_usd": 0.009833999999999999
+    }
+  ],
+  "model": "haiku"
+}

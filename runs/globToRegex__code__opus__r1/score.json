@@ -1,0 +1,30 @@
+{
+  "task": "globToRegex",
+  "arm": "code",
+  "model": "opus",
+  "rep": 1,
+  "wall_s": 30,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.15598920000000002,
+  "turns": 4,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 29,
+  "detects": false,
+  "locks_in": true,
+  "detecting_tests": [],
+  "locking_tests": [
+    "globToRegex ** does not make surrounding slashes optional",
+    "globToRegex produces the expected regex source"
+  ],
+  "green_on": [
+    "buggy"
+  ],
+  "mutation": {
+    "buggy": 0.9523809523809523
+  },
+  "fix_mutant": null
+}

@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "This charges the fast-mode multiplier on **standard** requests and not on fast ones.",
+      "cost_usd": 0.006645
+    },
+    {
+      "label": "reported",
+      "quote": "This charges the fast-mode multiplier on **standard** requests and not on fast ones.",
+      "cost_usd": 0.010355
+    },
+    {
+      "label": "reported",
+      "quote": "**The bug:** at `src/estimateCostUsd.ts`, the speed check is backwards: This charges the fast-mode multiplier on **standard** requests and not on fast ones.",
+      "cost_usd": 0.007585
+    }
+  ],
+  "model": "haiku"
+}

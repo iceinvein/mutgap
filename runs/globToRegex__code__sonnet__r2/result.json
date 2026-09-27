@@ -1,0 +1,11 @@
+{
+  "task": "globToRegex",
+  "arm": "code",
+  "model": "sonnet",
+  "rep": 2,
+  "wall_s": 61,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.19218659999999996,
+  "turns": 9
+}

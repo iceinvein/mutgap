@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The spec says \"Two or more dated completions are enough to measure\" (fewer than two is what's insufficient), so the code should use `< 2` instead.",
+      "cost_usd": 0.006101
+    },
+    {
+      "label": "reported",
+      "quote": "The spec says \"Two or more dated completions are enough to measure\" (fewer than two is what's insufficient), so the code should use `< 2` instead.",
+      "cost_usd": 0.006076
+    },
+    {
+      "label": "reported",
+      "quote": "The spec says \"Two or more dated completions are enough to measure\" (fewer than two is what's insufficient), so the code should use `< 2` instead.",
+      "cost_usd": 0.007911
+    }
+  ],
+  "model": "haiku"
+}

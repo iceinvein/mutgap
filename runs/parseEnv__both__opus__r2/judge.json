@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "**The bug:** at `src/parseEnv.ts:7`, the function splits each line at the *last* `=` (`lastIndexOf`). `spec.md` says to split at the *first* `=`, so values can contain `=`.",
+      "cost_usd": 0.007204
+    },
+    {
+      "label": "reported",
+      "quote": "The bug: at `src/parseEnv.ts:7`, the function splits each line at the *last* `=` (`lastIndexOf`). `spec.md` says to split at the *first* `=`, so values can contain `=`.",
+      "cost_usd": 0.007004
+    },
+    {
+      "label": "reported",
+      "quote": "at `src/parseEnv.ts:7`, the function splits each line at the *last* `=` (`lastIndexOf`). `spec.md` says to split at the *first* `=`, so values can contain `=`.",
+      "cost_usd": 0.007714
+    }
+  ],
+  "model": "haiku"
+}

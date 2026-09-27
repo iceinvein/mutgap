@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The spec says \"Fewer than 5 seconds returns `just now`\" and gives `\"5s ago\"` as the output at 5 seconds, so it should be `d < 5`. Right now, exactly 5 seconds returns `\"just now\"`.",
+      "cost_usd": 0.007661
+    },
+    {
+      "label": "reported",
+      "quote": "The spec says \"Fewer than 5 seconds returns `just now`\" and gives `\"5s ago\"` as the output at 5 seconds, so it should be `d < 5`. Right now, exactly 5 seconds returns `\"just now\"`.",
+      "cost_usd": 0.007696000000000001
+    },
+    {
+      "label": "reported",
+      "quote": "The spec says \"Fewer than 5 seconds returns `just now`\" and gives `\"5s ago\"` as the output at 5 seconds, so it should be `d < 5`. Right now, exactly 5 seconds returns `\"just now\"`.",
+      "cost_usd": 0.008321
+    }
+  ],
+  "model": "haiku"
+}

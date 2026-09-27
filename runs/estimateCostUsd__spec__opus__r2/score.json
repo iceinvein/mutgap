@@ -1,0 +1,32 @@
+{
+  "task": "estimateCostUsd",
+  "arm": "spec",
+  "model": "opus",
+  "rep": 2,
+  "wall_s": 78,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.3408074,
+  "turns": 5,
+  "bug_kind": "operator",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 35,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "estimateCostUsd cost calculation uses the sum as is for standard speed",
+    "estimateCostUsd cost calculation multiplies the whole sum, including web searches, by fastMultiplier for fast speed",
+    "estimateCostUsd cost calculation supports fractional fast multipliers",
+    "estimateCostUsd lookup order uses the pricingTable entry's fastMultiplier for a model that is also a fallback"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.9545454545454546
+  },
+  "fix_mutant": null
+}

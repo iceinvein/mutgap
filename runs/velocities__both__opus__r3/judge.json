@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "`spec.md` says \"Two or more dated completions are enough to measure,\" but `src/velocities.ts` checks `if (dates.length <= 2)`.",
+      "cost_usd": 0.011734999999999999
+    },
+    {
+      "label": "reported",
+      "quote": "The bug: `spec.md` says \"Two or more dated completions are enough to measure,\" but `src/velocities.ts` checks `if (dates.length <= 2)`. So with exactly two dated completions, both rates come back as `null` with the \"not enough\" message.",
+      "cost_usd": 0.006045
+    },
+    {
+      "label": "reported",
+      "quote": "**The bug:** `spec.md` says \"Two or more dated completions are enough to measure,\" but `src/velocities.ts` checks `if (dates.length <= 2)`.",
+      "cost_usd": 0.00683
+    }
+  ],
+  "model": "haiku"
+}

@@ -1,0 +1,25 @@
+{
+  "task": "globToRegex",
+  "arm": "spec",
+  "model": "opus",
+  "rep": 2,
+  "wall_s": 64,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.24652240000000003,
+  "turns": 6,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 43,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "globToRegex ** handles multiple ** sequences"
+  ],
+  "locking_tests": [],
+  "green_on": [],
+  "mutation": {},
+  "fix_mutant": null
+}

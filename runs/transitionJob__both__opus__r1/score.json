@@ -1,0 +1,31 @@
+{
+  "task": "transitionJob",
+  "arm": "both",
+  "model": "opus",
+  "rep": 1,
+  "wall_s": 27,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.1588988,
+  "turns": 4,
+  "bug_kind": "semantic",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 164,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "transitionJob rejected moves rejects 'encoding' -> 'cancelled'",
+    "transitionJob rejected moves does not allow cancelling from encoding",
+    "transitionJob error shape reports 'encoding' and 'cancelled' in the error for 'encoding' -> 'cancelled'"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.8918918918918919
+  },
+  "fix_mutant": null
+}

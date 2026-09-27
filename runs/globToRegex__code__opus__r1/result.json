@@ -1,0 +1,11 @@
+{
+  "task": "globToRegex",
+  "arm": "code",
+  "model": "opus",
+  "rep": 1,
+  "wall_s": 30,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.15598920000000002,
+  "turns": 4
+}

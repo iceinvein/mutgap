@@ -1,0 +1,11 @@
+{
+  "task": "safeFilename",
+  "arm": "code",
+  "model": "opus",
+  "rep": 2,
+  "wall_s": 21,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.12658000000000003,
+  "turns": 3
+}

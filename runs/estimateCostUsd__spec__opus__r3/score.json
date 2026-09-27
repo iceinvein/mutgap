@@ -1,0 +1,31 @@
+{
+  "task": "estimateCostUsd",
+  "arm": "spec",
+  "model": "opus",
+  "rep": 3,
+  "wall_s": 68,
+  "cli": "2.1.283 (Claude Code)",
+  "is_error": false,
+  "cost_usd": 0.297658,
+  "turns": 5,
+  "bug_kind": "operator",
+  "impl_modified": false,
+  "marked": {},
+  "outcome": "scored",
+  "n_tests": 53,
+  "detects": true,
+  "locks_in": false,
+  "detecting_tests": [
+    "cost calculation applies fastMultiplier to the whole sum when speed is fast",
+    "cost calculation ignores fastMultiplier when speed is standard",
+    "lookup order uses the pricingTable entry's fastMultiplier, not the fallback's"
+  ],
+  "locking_tests": [],
+  "green_on": [
+    "reference"
+  ],
+  "mutation": {
+    "reference": 0.9545454545454546
+  },
+  "fix_mutant": null
+}

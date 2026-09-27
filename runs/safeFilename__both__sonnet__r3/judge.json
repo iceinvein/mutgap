@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The 2 failures reveal a real bug: `safeFilename.ts:9` always prepends a dot, so an extension already starting with `.` (e.g. `.pdf`) yields a double dot (`John-Smith..pdf`) instead of the spec'd behavior.",
+      "cost_usd": 0.0055309999999999995
+    },
+    {
+      "label": "reported",
+      "quote": "The 2 failures reveal a real bug: `safeFilename.ts:9` always prepends a dot, so an extension already starting with `.` (e.g. `.pdf`) yields a double dot (`John-Smith..pdf`) instead of the spec'd behavior.",
+      "cost_usd": 0.008006
+    },
+    {
+      "label": "reported",
+      "quote": "The 2 failures reveal a real bug: `safeFilename.ts:9` always prepends a dot, so an extension already starting with `.` (e.g. `.pdf`) yields a double dot (`John-Smith..pdf`) instead of the spec'd behavior.",
+      "cost_usd": 0.006246
+    }
+  ],
+  "model": "haiku"
+}

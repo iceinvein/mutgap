@@ -1,0 +1,8 @@
+node_modules/
+.stryker-tmp/
+.sluice/
+__pycache__/
+runs/*/transcript.jsonl
+runs/*/stderr.txt
+runs-*.log
+*-out.txt

@@ -1,0 +1,1 @@
+{"name":"globToRegex","source":"iceinvein/agent-skills@e0ba96c:skills/magpie/scripts/path-filter.ts:59","bug_kind":"semantic","bug":"** no longer absorbs a following /, so **/x requires a slash before x and stops matching a root-level x"}

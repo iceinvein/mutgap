@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The bug: `src/formatDuration.ts:5` uses `s <= 10 ? s.toFixed(1) : Math.round(s)`. At exactly 10000ms (`s === 10`), the `<=` makes it take the decimal branch, producing `\"10.0s\"`. But spec.md explicitly states `10000` should give `\"10s\"` (the \"under 10 seconds\" decimal rule vs. \"10 seconds up to under 60\" whole-second rule puts the boundary at `s < 10`, not `s <= 10`).",
+      "cost_usd": 0.007862
+    },
+    {
+      "label": "reported",
+      "quote": "The bug: `src/formatDuration.ts:5` uses `s <= 10 ? s.toFixed(1) : Math.round(s)`. At exactly 10000ms (`s === 10`), the `<=` makes it take the decimal branch, producing `\"10.0s\"`. But spec.md explicitly states `10000` should give `\"10s\"` (the \"under 10 seconds\" decimal rule vs. \"10 seconds up to under 60\" whole-second rule puts the boundary at `s < 10`, not `s <= 10`).",
+      "cost_usd": 0.007646999999999999
+    },
+    {
+      "label": "reported",
+      "quote": "it's revealing a real off-by-one bug in the implementation",
+      "cost_usd": 0.008747
+    }
+  ],
+  "model": "haiku"
+}

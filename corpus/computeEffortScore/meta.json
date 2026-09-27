@@ -1,0 +1,1 @@
+{"name":"computeEffortScore","source":"iceinvein/agent-skills@e0ba96c:skills/magpie/scripts/post-cmd.ts:262","bug_kind":"operator","bug":"the score-1 line limit uses < 50 instead of <= 50, so a change of one or two files totalling exactly 50 lines scores 2 instead of 1"}

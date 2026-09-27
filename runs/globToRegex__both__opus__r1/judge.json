@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The bug: the spec says that when `**` is followed by `/`, that `/` becomes part of the `**`. The code in `src/globToRegex.ts` doesn't do this.",
+      "cost_usd": 0.006057
+    },
+    {
+      "label": "reported",
+      "quote": "**The bug:** the spec says that when `**` is followed by `/`, that `/` becomes part of the `**`. The code in `src/globToRegex.ts` doesn't do this.",
+      "cost_usd": 0.007266999999999999
+    },
+    {
+      "label": "reported",
+      "quote": "The bug: the spec says that when `**` is followed by `/`, that `/` becomes part of the `**`. The code in `src/globToRegex.ts` doesn't do this.",
+      "cost_usd": 0.007181999999999999
+    }
+  ],
+  "model": "haiku"
+}

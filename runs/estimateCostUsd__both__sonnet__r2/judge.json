@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The condition is inverted. Per spec.md, `fastMultiplier` should apply when `speed === \"fast\"`, and `\"standard\"` should use the sum as-is. The current code does the opposite (applies the multiplier to `\"standard\"` and `1` to `\"fast\"`)",
+      "cost_usd": 0.0058779999999999995
+    },
+    {
+      "label": "reported",
+      "quote": "The condition is inverted. Per spec.md, `fastMultiplier` should apply when `speed === \"fast\"`, and `\"standard\"` should use the sum as-is. The current code does the opposite (applies the multiplier to `\"standard\"` and `1` to `\"fast\"`).",
+      "cost_usd": 0.006273
+    },
+    {
+      "label": "reported",
+      "quote": "The condition is inverted.",
+      "cost_usd": 0.007783
+    }
+  ],
+  "model": "haiku"
+}

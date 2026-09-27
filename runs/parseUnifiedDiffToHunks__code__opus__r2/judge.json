@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "The bug: at `src/parseUnifiedDiffToHunks.ts:45`, the check that should skip file header lines can never be true",
+      "cost_usd": 0.009978
+    },
+    {
+      "label": "reported",
+      "quote": "No line starts with both `+++` and `---`, so nothing is ever skipped.",
+      "cost_usd": 0.009132999999999999
+    },
+    {
+      "label": "reported",
+      "quote": "The bug: at `src/parseUnifiedDiffToHunks.ts:45`, the check that should skip file header lines can never be true: ... No line starts with both `+++` and `---`, so nothing is ever skipped. This matters when a diff covers more than one file. The next file's `--- a/two.ts` and `+++ b/two.ts` lines get added to the end of the previous hunk as a removed line (`\"-- a/two.ts\"`) and an added line (`\"++ b/two.ts\"`)",
+      "cost_usd": 0.0073279999999999994
+    }
+  ],
+  "model": "haiku"
+}

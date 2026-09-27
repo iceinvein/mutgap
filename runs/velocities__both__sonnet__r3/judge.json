@@ -1,0 +1,22 @@
+{
+  "label": "reported",
+  "unanimous": true,
+  "votes": [
+    {
+      "label": "reported",
+      "quote": "With exactly 2 dated completions, the current code wrongly returns `null`/`UNMEASURED` instead of computing rates.",
+      "cost_usd": 0.006948
+    },
+    {
+      "label": "reported",
+      "quote": "all failures trace to one bug in `src/velocities.ts:21`: it uses `dates.length <= 2` where the spec requires `< 2`",
+      "cost_usd": 0.008483000000000001
+    },
+    {
+      "label": "reported",
+      "quote": "With exactly 2 dated completions, the current code wrongly returns `null`/`UNMEASURED` instead of computing rates.",
+      "cost_usd": 0.005438
+    }
+  ],
+  "model": "haiku"
+}
